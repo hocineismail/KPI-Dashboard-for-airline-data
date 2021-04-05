@@ -7,7 +7,9 @@
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "prebuild": "rimraf ./build",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
