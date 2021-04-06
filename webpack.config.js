@@ -1,6 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin')
+const Dotenv = require('dotenv-webpack');
+const webpack = require('webpack');
+
 
 module.exports = {
     mode: 'development',
@@ -19,23 +22,29 @@ module.exports = {
                 exclude: '/node_modules/'
             },
             {
-                test: /\.s(a|c)ss$/,
+                test: /\.s[ac]ss$/i,
                 use: [
-                  'style-loader',
+                  "style-loader",
+                  "css-loader",
                   {
-                    loader: 'css-loader',
-                    options: { modules: true }
+                    loader: "sass-loader",
+                    options: {
+                      implementation: require("sass"),
+                      sassOptions: {
+                        fiber: false,
+                      },
+                    },
                   },
-                  'sass-loader'
-                ]
-              }
+                ],
+              },
         ],
     },
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'build')
     }, 
-    plugins: [
+    plugins: [ 
+        new Dotenv(),
         new ErrorOverlayPlugin(),
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'public', 'index.html')

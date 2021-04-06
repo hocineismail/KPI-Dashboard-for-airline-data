@@ -1,0 +1,25 @@
+html,body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.app-topbar {
+    position: fixed;
+    height: 70px;
+    background-color: white;
+    right: 0;
+    left: 300px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); 
+    ul {
+      margin: 0;
+      padding: 20px;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }

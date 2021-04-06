@@ -1,9 +1,13 @@
 import React from 'react'
-
-export default function Topnav(): JSX.Element {
+import './Topnav.scss'
+export default function Topnav(): JSX.Element { 
     return (
-        <div className="app-topbar">
-            Topnav
-        </div>
+        <nav className="app-topbar"> 
+            <ul>
+                <li><a href="#">SASS</a></li>
+                <li><a href="#">SASS</a></li>
+                <li><a href="#">SASS</a></li>
+            </ul>
+        </nav> 
     )
 }

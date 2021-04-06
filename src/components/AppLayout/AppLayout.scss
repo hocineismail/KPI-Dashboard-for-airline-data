@@ -1,7 +1,13 @@
-.app-page {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr;
-    grid-template-rows: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-  }
+// create variable
+$background-color: #F8F8F8;
+  
+
+.app-main-view{
+  margin-left: 300px;
+};
+
+.app-container {
+  padding: 100px 50px;
+  background-color: $background-color;
+  min-height: 100vh;
+}

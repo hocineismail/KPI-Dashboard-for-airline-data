@@ -247,43 +247,19 @@
         "affectsGlobalScope": true
       },
       "./src/components/Topnav/Topnav.tsx": {
-        "version": "804e14c5675f1bfe7b97c746abf8af2684fa4749f23d5f2b3ee0294bf4994237",
-        "signature": "cb9e02cc7cbdc535c0b8f2f174dcd8c284bc69e7558e9642905b881b36374173",
+        "version": "357fed87f03a6f6df4b582cbe8fbe6e802a56cf293812d50f8f715cc5c7ce77e",
+        "signature": "476eda01d8433cfd694b27d0f94eeced2214f54a5da8df0efedd370914968b89",
         "affectsGlobalScope": false
       },
       "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx": {
-        "version": "26676a647b38ac37e0b42e5e45321cf7c536e20f54621eec102e56a23b2d19a2",
+        "version": "3276f08e9fc72eb5c45c7afba43058bd5f05ed9c51c396dc22437d86ecca183f",
         "signature": "8d379821d7a93a2aaace00e018bca3b9d048fea57c9893a8756147be5c4badfd",
         "affectsGlobalScope": false
       },
       "./src/components/Sidebar/Sidebar.tsx": {
-        "version": "d1e67c4e7bc539c87dbd72b7ac9a4ee731ad00400bbb79932b852e8f760b225e",
+        "version": "495b34dbc64123e6741f0abc8f6d00e8480a6923e3245f261156ece3ea606442",
         "signature": "70936c27e56ed4c66a44b5a31695847ae6ba5086315c89d341bace3aa772661d",
         "affectsGlobalScope": false
-      },
-      "./src/components/AppLayout/AppLayout.tsx": {
-        "version": "e05e9158c5dc0e236eaf4d3ea206ab4732e07ad80441a99871963627274607f5",
-        "signature": "560ad71c02894a76ac1959a030bd8acbb5b03d5c5076d907d6542f203994f4c7",
-        "affectsGlobalScope": false
-      },
-      "./src/pages/dashboard/Dashboard.tsx": {
-        "version": "eaa9f852673d15f6c33e0e8dd430f53cd656913918bef462cc6e12728df46df8",
-        "signature": "1c869392746033dec827d8f2d88bce55c57a49dad3baf519ab1b91d1efb7084f",
-        "affectsGlobalScope": false
-      },
-      "./src/App.tsx": {
-        "version": "0afbd87dde3f88750925d0447b4fa649ac938acc4b94b4d4ffd7428735b7b80e",
-        "signature": "d32e62573c65feccb8d5e55da7ea48cdf5cc0a3c8b2f87777acd712f2888cd76",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react-dom/index.d.ts": {
-        "version": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
-        "signature": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@shopify/polaris/locales/en.json": {
-        "version": "b20f910ed1d72f3483e29faae634666eabbed5b08156db0e9db5c1c3cfc26a96",
-        "affectsGlobalScope": true
       },
       "./node_modules/@shopify/polaris/dist/types/latest/src/configure.d.ts": {
         "version": "7c2dfa48622d72879c164d582b037b885a48328e77f96742ed8ffab23d8c0148",
@@ -2100,9 +2076,68 @@
         "signature": "0a9b4d520ceb9c783dad48361c5f55976558fbf121517704468ddce814be12dc",
         "affectsGlobalScope": false
       },
+      "./src/components/TitlePage/TitlePage.tsx": {
+        "version": "f52e681c406060f9333607d22d1216500f395d6f47dc0c9aad121a707dacf45e",
+        "signature": "4ad64568994322653b1ea631a35c09b9a2ae59e1370e9093fcfa36b5766199b3",
+        "affectsGlobalScope": false
+      },
+      "./src/components/AppLayout/AppLayout.tsx": {
+        "version": "f880336e5d8756a22e99f114dc7148240df0bf1b16ccb182f4bc497e23d57c25",
+        "signature": "b97a97cda475a1ef39c88f8f277a8f3da2170435387c9cba42f3f89bb0ef1ab4",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Cards/StatisticCard.tsx": {
+        "version": "e0f97c7c5e98a7d59c30562f1d938b6f878b3daea37d8882810f9e95a83729dc",
+        "signature": "eb6ce33a926c35181c82dfaec4924dffe3291a5a80fe8899807f2fb915832236",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/axios/index.d.ts": {
+        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Sections/StatisticsSection.tsx": {
+        "version": "002735fbd48715cabdbfa6a8002cd14a7338449c072c6a98aba240b4b662cb08",
+        "signature": "87a282e415ff40dec5aeea68bd544d3c9d4c5fdfbdf79f9ec36e15e50409f3b7",
+        "affectsGlobalScope": false
+      },
+      "./src/pages/dashboard/Dashboard.tsx": {
+        "version": "aed5e24cc4d64331428f1042b51456a26b25c318da970e7ba61525f631772b60",
+        "signature": "1c869392746033dec827d8f2d88bce55c57a49dad3baf519ab1b91d1efb7084f",
+        "affectsGlobalScope": false
+      },
+      "./src/App.tsx": {
+        "version": "3bea26a3444eca325fa4ba938aa97cd446533a689022ec996f15018da845077a",
+        "signature": "da3cecb2bc2c6fe1de1e7f3485e03186e51d56df28e5aa4e2110a9759013888f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-dom/index.d.ts": {
+        "version": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
+        "signature": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@shopify/polaris/locales/en.json": {
+        "version": "b20f910ed1d72f3483e29faae634666eabbed5b08156db0e9db5c1c3cfc26a96",
+        "affectsGlobalScope": true
+      },
       "./src/index.tsx": {
         "version": "2b7d37e218b1e510a17b6fdd2560e0d7c7ef69889147c86ac5c7ed6435009e11",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Pagination/Pagination.tsx": {
+        "version": "c6848afe58885faee647f7747377f7f2baf0805807d15f772308f73baa34e492",
+        "signature": "26ef30e65ed52dce4c34bf2a7020e245200e84421ca20226d4cc22808163fe20",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Sections/ContentSection.tsx": {
+        "version": "b6e32feb216f9772cc476dd97a0704503985426204bf028db3b08eee18d9c0c8",
+        "signature": "2f445dae6d19be9ccc7510afc413d0adf8af5541c6c4c35ea734e0032df69efe",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Table/Table.tsx": {
+        "version": "92b8ecf9a7f72e417d5cdfc70f032c469a146188ff7ad6747f93b9f4d6bedd5d",
+        "signature": "723d36c3d4aa7507bc7923296666d423cd6b38148d1518c694fe7065dd7fdd3d",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/anymatch/index.d.ts": {
@@ -4477,7 +4512,23 @@
       "./src/components/AppLayout/AppLayout.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/components/Sidebar/Sidebar.tsx",
+        "./src/components/TitlePage/TitlePage.tsx",
         "./src/components/Topnav/Topnav.tsx"
+      ],
+      "./src/components/Cards/StatisticCard.tsx": [
+        "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/Pagination/Pagination.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/Sections/ContentSection.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/Sections/StatisticsSection.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/axios/index.d.ts",
+        "./src/components/Cards/StatisticCard.tsx"
       ],
       "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -4485,6 +4536,13 @@
       "./src/components/Sidebar/Sidebar.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx"
+      ],
+      "./src/components/Table/Table.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/TitlePage/TitlePage.tsx": [
+        "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/Topnav/Topnav.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -4498,7 +4556,8 @@
       ],
       "./src/pages/dashboard/Dashboard.tsx": [
         "./node_modules/@types/react/index.d.ts",
-        "./src/components/AppLayout/AppLayout.tsx"
+        "./src/components/AppLayout/AppLayout.tsx",
+        "./src/components/Sections/StatisticsSection.tsx"
       ]
     },
     "exportedModulesMap": {
@@ -6274,6 +6333,9 @@
       ],
       "./src/components/AppLayout/AppLayout.tsx": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/Sections/ContentSection.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -6749,6 +6811,7 @@
       "./node_modules/@types/webpack/index.d.ts",
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
+      "./node_modules/axios/index.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/jest-diff/build/cleanupSemantic.d.ts",
       "./node_modules/jest-diff/build/diffLines.d.ts",
@@ -6806,8 +6869,14 @@
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "./src/App.tsx",
       "./src/components/AppLayout/AppLayout.tsx",
+      "./src/components/Cards/StatisticCard.tsx",
+      "./src/components/Pagination/Pagination.tsx",
+      "./src/components/Sections/ContentSection.tsx",
+      "./src/components/Sections/StatisticsSection.tsx",
       "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx",
       "./src/components/Sidebar/Sidebar.tsx",
+      "./src/components/Table/Table.tsx",
+      "./src/components/TitlePage/TitlePage.tsx",
       "./src/components/Topnav/Topnav.tsx",
       "./src/index.tsx",
       "./src/pages/dashboard/Dashboard.tsx"
@@ -8702,6 +8771,10 @@
         1
       ],
       [
+        "./node_modules/axios/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/csstype/index.d.ts",
         1
       ],
@@ -8782,11 +8855,39 @@
         1
       ],
       [
+        "./src/components/Cards/StatisticCard.tsx",
+        1
+      ],
+      [
+        "./src/components/Pagination/Pagination.tsx",
+        1
+      ],
+      [
+        "./src/components/SectionContent/SectionContent.tsx",
+        1
+      ],
+      [
+        "./src/components/Sections/ContentSection.tsx",
+        1
+      ],
+      [
+        "./src/components/Sections/StatisticsSection.tsx",
+        1
+      ],
+      [
         "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx",
         1
       ],
       [
         "./src/components/Sidebar/Sidebar.tsx",
+        1
+      ],
+      [
+        "./src/components/Table/Table.tsx",
+        1
+      ],
+      [
+        "./src/components/TitlePage/TitlePage.tsx",
         1
       ],
       [

@@ -1,20 +1,28 @@
 import React, {  ReactNode  }  from 'react';
 import Topnav from '../Topnav/Topnav';
 import Sidebar from '../Sidebar/Sidebar';
+import TitlePage from '../TitlePage/TitlePage'
+// import { Page } from '@shopify/polaris'
 import './AppLayout.scss';
 
-type ComponentProps = { 
+type Props = { 
+    title: string,
     children: ReactNode;
   }
-function AppLayout({children}: ComponentProps): JSX.Element {
+function AppLayout({title, children}: Props): JSX.Element {
 
     return (
-        <div className="app-page">
-          <Topnav />
+        <div className="app-page"> 
           <Sidebar />
-          <div className="app-container">
-            {children}
-          </div>
+          <div className="app-main-view">
+            <Topnav />
+            <div className="app-container">
+              <TitlePage title={title} /> 
+              {/* <Page> */}
+                {children}
+              {/* </Page> */}
+            </div>
+            </div>
         </div>
     )
 }
