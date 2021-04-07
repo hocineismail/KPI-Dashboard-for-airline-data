@@ -1,7 +1,7 @@
 import React from 'react'
 import StatisticCard from '../Cards/StatisticCard'; 
 import axios from 'axios';
-import './ContentSection.scss'
+// import './ContentSection.scss'
 export default function StatisticsSection(): JSX.Element {
     //Generate currency format before fetching data 
     const currency = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(0)

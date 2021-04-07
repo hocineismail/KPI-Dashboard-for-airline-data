@@ -1,0 +1,32 @@
+ 
+.pagination {
+    display: inline-block;
+}
+ .pagination li {
+  display:inline;
+}
+.pagination a {
+  color: black;
+  float: left;
+  cursor: pointer;
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+  
+.pagination a.active {
+  background-color: #2C6ECB;
+  color: white;
+}
+  
+.pagination a.active {
+  background-color: #2C6ECB;
+  color: white;
+  border: 1px solid #2C6ECB;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.disabled {
+  pointer-events:none; //This makes it not clickable
+  opacity:0.6;
+}

@@ -2097,18 +2097,33 @@
         "affectsGlobalScope": false
       },
       "./src/components/Sections/StatisticsSection.tsx": {
-        "version": "002735fbd48715cabdbfa6a8002cd14a7338449c072c6a98aba240b4b662cb08",
-        "signature": "87a282e415ff40dec5aeea68bd544d3c9d4c5fdfbdf79f9ec36e15e50409f3b7",
+        "version": "5714cc9557edf65e54af592684a9e08ab2171f7635d09fcdcf01cc3dcd0377f9",
+        "signature": "20f1b5794ce95800e01a3e492f9f589d921296b9cb285aa8d7c49d92cd5f8c89",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Pagination/Pagination.tsx": {
+        "version": "e0af53b3a6c3f2aaaf1067095c8fa8cdaa8e72d3019b2ecdb1ff4399c204086f",
+        "signature": "be45a17dc5f84bf3429c84ef291d8263ef880baed745e8a2d72e4473ab88b90f",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Table/Table.tsx": {
+        "version": "8b9862a857bf67d14ec7f3cdeb967781a169343a78a1ed4231e644531ad8a202",
+        "signature": "5d57b82522e8ccb5fca1c9cade15571953af408fc3397055c6ac592cccc8a7a0",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Table/PassengersTable.tsx": {
+        "version": "cb0da6711a7fcccfe0eb163f66810f6b1f9e96938b57f137579bda5db24eb22a",
+        "signature": "b40ae9f25f29a62a974b704f1a527f9acd3db9022748e64f81d7398a1ebcd8bb",
         "affectsGlobalScope": false
       },
       "./src/pages/dashboard/Dashboard.tsx": {
-        "version": "aed5e24cc4d64331428f1042b51456a26b25c318da970e7ba61525f631772b60",
+        "version": "09b861d8ca83de72c2714c421c3e06766343c736210536e7b155e20893af8452",
         "signature": "1c869392746033dec827d8f2d88bce55c57a49dad3baf519ab1b91d1efb7084f",
         "affectsGlobalScope": false
       },
       "./src/App.tsx": {
-        "version": "3bea26a3444eca325fa4ba938aa97cd446533a689022ec996f15018da845077a",
-        "signature": "da3cecb2bc2c6fe1de1e7f3485e03186e51d56df28e5aa4e2110a9759013888f",
+        "version": "24d6d4bbf41c8ed8ba40167c01ed0c607a1a1906d8dc381ffbbf0996e696cf31",
+        "signature": "a1a6e3a011a9728017a80ff4ae440253ab4da26282020ea1928694373f1c5fc4",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/react-dom/index.d.ts": {
@@ -2125,19 +2140,9 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
-      "./src/components/Pagination/Pagination.tsx": {
-        "version": "c6848afe58885faee647f7747377f7f2baf0805807d15f772308f73baa34e492",
-        "signature": "26ef30e65ed52dce4c34bf2a7020e245200e84421ca20226d4cc22808163fe20",
-        "affectsGlobalScope": false
-      },
       "./src/components/Sections/ContentSection.tsx": {
         "version": "b6e32feb216f9772cc476dd97a0704503985426204bf028db3b08eee18d9c0c8",
         "signature": "2f445dae6d19be9ccc7510afc413d0adf8af5541c6c4c35ea734e0032df69efe",
-        "affectsGlobalScope": false
-      },
-      "./src/components/Table/Table.tsx": {
-        "version": "92b8ecf9a7f72e417d5cdfc70f032c469a146188ff7ad6747f93b9f4d6bedd5d",
-        "signature": "723d36c3d4aa7507bc7923296666d423cd6b38148d1518c694fe7065dd7fdd3d",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/anymatch/index.d.ts": {
@@ -4520,6 +4525,8 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/Pagination/Pagination.tsx": [
+        "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
+        "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/Sections/ContentSection.tsx": [
@@ -4537,8 +4544,16 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx"
       ],
+      "./src/components/Table/PassengersTable.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/axios/index.d.ts",
+        "./src/components/Table/Table.tsx"
+      ],
       "./src/components/Table/Table.tsx": [
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
+        "./node_modules/@types/prop-types/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/Pagination/Pagination.tsx"
       ],
       "./src/components/TitlePage/TitlePage.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
@@ -4557,7 +4572,8 @@
       "./src/pages/dashboard/Dashboard.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/components/AppLayout/AppLayout.tsx",
-        "./src/components/Sections/StatisticsSection.tsx"
+        "./src/components/Sections/StatisticsSection.tsx",
+        "./src/components/Table/PassengersTable.tsx"
       ]
     },
     "exportedModulesMap": {
@@ -6334,8 +6350,14 @@
       "./src/components/AppLayout/AppLayout.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/Pagination/Pagination.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/Sections/ContentSection.tsx": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/Table/Table.tsx": [
+        "./node_modules/@types/prop-types/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -6875,6 +6897,7 @@
       "./src/components/Sections/StatisticsSection.tsx",
       "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx",
       "./src/components/Sidebar/Sidebar.tsx",
+      "./src/components/Table/PassengersTable.tsx",
       "./src/components/Table/Table.tsx",
       "./src/components/TitlePage/TitlePage.tsx",
       "./src/components/Topnav/Topnav.tsx",
@@ -8883,7 +8906,19 @@
         1
       ],
       [
+        "./src/components/Table/PassengersTable.tsx",
+        1
+      ],
+      [
         "./src/components/Table/Table.tsx",
+        1
+      ],
+      [
+        "./src/components/Table/footerTable/FooterTable.tsx",
+        1
+      ],
+      [
+        "./src/components/Table/tes.js",
         1
       ],
       [
