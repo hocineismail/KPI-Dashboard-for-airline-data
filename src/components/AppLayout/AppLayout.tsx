@@ -13,7 +13,7 @@ function AppLayout({title, children}: Props): JSX.Element {
 
     return (
         <div className="app-page"> 
-          <Sidebar />
+          {/* <Sidebar /> */}
           <div className="app-main-view">
             <Topnav />
             <div className="app-container">

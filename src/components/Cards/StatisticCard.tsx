@@ -5,15 +5,20 @@ import './Card.scss'
 type Props = { 
     title: string,
     count: number | string,
-    loading: boolean
+    loading: boolean,
+    icon: string
   }
 
 
-export default function StatisticCard({ title, count, loading }: Props): JSX.Element {
+export default function StatisticCard({ title, count, loading, icon }: Props): JSX.Element {
     return (
         <div className="app-card-component">
-          <Card title={title} sectioned>
-              <h1>{loading ? 'loading' : count}</h1>
+          <Card  sectioned> 
+          <i className={`app-card-icon ${icon}`}></i> 
+          <p className="app-card-title">
+          {title}
+          </p>
+            <p className="app-card-count">{loading ? <span style={{fontSize: '12px'}}>Loading...</span> : count}</p>
           </Card>
         </div>
     )

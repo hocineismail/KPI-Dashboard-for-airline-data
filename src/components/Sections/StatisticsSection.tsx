@@ -1,7 +1,7 @@
 import React from 'react'
 import StatisticCard from '../Cards/StatisticCard'; 
 import axios from 'axios';
-// import './ContentSection.scss'
+import './ContentSection.scss'
 export default function StatisticsSection(): JSX.Element {
     //Generate currency format before fetching data 
     const currency = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(0)
@@ -83,10 +83,30 @@ export default function StatisticsSection(): JSX.Element {
        }
     return (
         <div className='app-statistics-section'> 
-            <StatisticCard title='Total Trips' count={TotalOfTrips.count} loading={TotalOfTrips.loading} />
-            <StatisticCard title='Total Airlines' count={TotalOfAirlines.count} loading={TotalOfAirlines.loading} />
-            <StatisticCard title='Overall Sales in Euro' count={OverallSalesInEuro.count} loading={OverallSalesInEuro.loading} />
-            <StatisticCard title='Establishing Year' count={EstablishingYear.count} loading={EstablishingYear.loading} />
+            <StatisticCard 
+              title='Total Trips' 
+              count={TotalOfTrips.count} 
+              loading={TotalOfTrips.loading} 
+              icon="fas fa-suitcase-rolling"
+            />
+            <StatisticCard
+              title='Total Airlines' 
+              count={TotalOfAirlines.count} 
+              loading={TotalOfAirlines.loading} 
+              icon="fas fa-plane"
+            />
+            <StatisticCard 
+              title='Overall Sales in Euro' 
+              count={OverallSalesInEuro.count} 
+              loading={OverallSalesInEuro.loading} 
+              icon="far fa-money-bill-alt"
+            />
+            <StatisticCard 
+              title='Establishing Year' 
+              count={EstablishingYear.count} 
+              loading={EstablishingYear.loading} 
+              icon="far fa-calendar-alt"
+            />
             <i>{error}</i>
         </div>
     )

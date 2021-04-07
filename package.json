@@ -28,6 +28,7 @@
     "axios": "^0.21.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^5.2.0",
+    "dotenv-webpack": "^7.0.2",
     "eslint": "^7.23.0",
     "eslint-plugin-react": "^7.23.1",
     "html-webpack-plugin": "^5.3.1",
@@ -51,6 +52,7 @@
     ]
   },
   "dependencies": {
+    "@coreui/icons": "^2.0.1",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "error-overlay-webpack-plugin": "^0.4.2",
