@@ -1,0 +1,18 @@
+// .dashboard-grid { 
+//     display: grid;
+//     grid-template-columns: 1fr  4fr; 
+//     box-sizing: border-box; 
+// }
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns:  25% 75%;  
+}
+ 
+
+@media only screen and (max-width: 1400px) {
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns:  100%;  
+    }
+  }

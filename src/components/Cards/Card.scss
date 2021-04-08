@@ -2,7 +2,8 @@
 // .app-card-component {
 //   margin: 10px;
 // }
-
+$primary-color: #028ECC;
+$second-color: #8f8f8f;
 .app-card-component {
   margin: 20px; 
   display: flex 19px !important;
@@ -13,19 +14,19 @@
   text-align: center !important;
   .app-card-count {
     font-family: 'Noto Sans', sans-serif; 
-    color: #028ECC; 
+    color: $primary-color; 
     font-size: 2.8rem;
     line-height: 65px;
   }
   .app-card-title {  
-    color: #8f8f8f; 
+    color: $second-color; 
     font-weight: bold;
     height: 30px; 
     line-height: 30px;
   }
   .app-card-icon {
     font-size:3.5rem;
-    color: #028ECC; 
+    color: $primary-color; 
     line-height: 50px;
   }
 }

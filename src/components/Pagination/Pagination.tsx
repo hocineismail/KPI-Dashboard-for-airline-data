@@ -1,16 +1,16 @@
 import React from 'react'
 import { Select } from '@shopify/polaris'
+
+//import types
+import { Ipagination } from './type';
+
 import PropTypes from 'prop-types'; 
+
+//import styles
 import './Pagination.scss'
-interface ToggleProps {
-    onchangePage: (s: number) => void;  
-    onChangeRow: (s: string) => void;  
-    totalPage: number,
-    row: string,
-    currentPage: number
-}
  
- const Pagination: React.FC<ToggleProps> = ({ totalPage, row, onChangeRow, currentPage, onchangePage}) => {
+ 
+ const Pagination: React.FC<Ipagination> = ({ totalPage, row, onChangeRow, currentPage, onchangePage}) => {
  
     const [navifation, setnavifation] = React.useState<Array<number>>([])
 
@@ -58,17 +58,12 @@ interface ToggleProps {
         <li className={currentPage === 0 ? 'disabled' : ''}>
             <a onClick={() => onchangePage(currentPage - 1)}> {`<`} </a>
         </li>
-        <li className={'disabled'}>
-            <a> {`...`} </a>
-        </li>
+
         {navifation.map((page, index) =>
             <li key={index} >
                 <a onClick={() => onchangePage(page - 1)} className={ currentPage + 1  === page ? 'active' : ''} >{page}</a>
             </li>
         )}
-        <li className={'disabled'}>
-            <a> {`...`} </a>
-        </li>
         <li className={currentPage === totalPage - 1 ? 'disabled' : ''}>
             <a onClick={() => onchangePage(currentPage + 1)}> {`>`}</a>
         </li>
@@ -77,10 +72,10 @@ interface ToggleProps {
         </li>
     </ul>
     </div>
-    <div style={{ margin: '10px 10px 10px 0px ', textAlign: 'right'}}>
+    <div className="app-pagination-indecator" >
        Rows per page: {(parseInt(row) * currentPage + 1)}-{(parseInt(row) * currentPage) + parseInt(row)} of {totalPage}
-    </div>
-    <div  style={{width: '80px'}}>
+     
+    <div style={{float:'right'}}>
     <Select
         label=" "
         labelInline         
@@ -93,6 +88,7 @@ interface ToggleProps {
         onChange={(value) => onChangeRow(value)}
         value={row.toString()}
       />
+    </div>
     </div>
    
     </div>

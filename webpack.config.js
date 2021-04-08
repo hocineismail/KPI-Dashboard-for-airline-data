@@ -37,17 +37,6 @@ module.exports = {
                   },
                 ],
               },
-            {
-              test: /\.svg$/,
-              use: [
-                {
-                  loader: 'svg-url-loader',
-                  options: {
-                    limit: 10000,
-                  },
-                },
-              ],
-            }
         ],
     },
     output: {
@@ -61,5 +50,10 @@ module.exports = {
             template: path.join(__dirname, 'public', 'index.html')
         })
     ],
-    devtool: 'cheap-module-source-map'
+    devtool: 'cheap-module-source-map',
+    devServer: {
+      host: '0.0.0.0',//your ip address
+      port: 8080,
+      disableHostCheck: true, 
+  }
 }

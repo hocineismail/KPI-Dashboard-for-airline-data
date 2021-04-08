@@ -2061,34 +2061,379 @@
         "signature": "0a9b4d520ceb9c783dad48361c5f55976558fbf121517704468ddce814be12dc",
         "affectsGlobalScope": false
       },
+      "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts": {
+        "version": "8ec2e33a33170e07d0976ae13fcd59418263828ae79181a25c8f6166d110590e",
+        "signature": "8ec2e33a33170e07d0976ae13fcd59418263828ae79181a25c8f6166d110590e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/Button/Button.d.ts": {
+        "version": "485304fabc2f8efe1150f87c2f275c71f83e4109228a91e0d6774a8894fb6c14",
+        "signature": "485304fabc2f8efe1150f87c2f275c71f83e4109228a91e0d6774a8894fb6c14",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts": {
+        "version": "5e8d7d9849868eada0d92a171f6e0761f963d42deb6e20a6d7194f1a0fd27f54",
+        "signature": "5e8d7d9849868eada0d92a171f6e0761f963d42deb6e20a6d7194f1a0fd27f54",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/HamburgerArrow.d.ts": {
+        "version": "893079b08bf14a3386998bbc2a02a8833e5d5bbbb85f1f58a9f82d7f80567006",
+        "signature": "893079b08bf14a3386998bbc2a02a8833e5d5bbbb85f1f58a9f82d7f80567006",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/index.d.ts": {
+        "version": "065ecd856fdc77765b8f6fbda4a652bbba4d845cc3566bb12728d021d1bdf83a",
+        "signature": "065ecd856fdc77765b8f6fbda4a652bbba4d845cc3566bb12728d021d1bdf83a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/HamburgerArrowReverse.d.ts": {
+        "version": "5d2fd20291587276142191f184f0d82712257eb40371ba4a45731769f10c8cef",
+        "signature": "5d2fd20291587276142191f184f0d82712257eb40371ba4a45731769f10c8cef",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/index.d.ts": {
+        "version": "0e41d360ea038f9fe602789396a8a0bb93be350a12d4779a3384362503e7079e",
+        "signature": "0e41d360ea038f9fe602789396a8a0bb93be350a12d4779a3384362503e7079e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/HamburgerArrowAlt.d.ts": {
+        "version": "4738a9200256ad8c7735da323a638fb733c202b679f49eb28f2543fbd9bd987e",
+        "signature": "4738a9200256ad8c7735da323a638fb733c202b679f49eb28f2543fbd9bd987e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/index.d.ts": {
+        "version": "3ffa69e7edb20b4bcc5e7b671b937be44e24516a69523350d6f54eb0b9fbf8af",
+        "signature": "3ffa69e7edb20b4bcc5e7b671b937be44e24516a69523350d6f54eb0b9fbf8af",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/HamburgerArrowAltReverse.d.ts": {
+        "version": "649bcfb9c3801e602dde16dbcecc157a12df9b1f7db055bffc167b29dcc540d5",
+        "signature": "649bcfb9c3801e602dde16dbcecc157a12df9b1f7db055bffc167b29dcc540d5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/index.d.ts": {
+        "version": "cb8cf957341d4b234a9d11ed6530f2fb96b9e64179199bb65bf8419012963491",
+        "signature": "cb8cf957341d4b234a9d11ed6530f2fb96b9e64179199bb65bf8419012963491",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/HamburgerArrowTurn.d.ts": {
+        "version": "f24330b5e7b40512f4455d401ca536a9c34d7f3aa88b70a9d3a55e910227464a",
+        "signature": "f24330b5e7b40512f4455d401ca536a9c34d7f3aa88b70a9d3a55e910227464a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/index.d.ts": {
+        "version": "5154eaa1d0defda907d9afb00ea5d62d2fe70b34435ba14317c6e7f0514d521b",
+        "signature": "5154eaa1d0defda907d9afb00ea5d62d2fe70b34435ba14317c6e7f0514d521b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/HamburgerArrowTurnReverse.d.ts": {
+        "version": "63b114cf8ee2e3981e409b686304e2e2d1d3dd9977f789be174f611142896650",
+        "signature": "63b114cf8ee2e3981e409b686304e2e2d1d3dd9977f789be174f611142896650",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/index.d.ts": {
+        "version": "1e944cc6ded676cf0fe9081082500695c11310c89bb7e4c1a5385f17f8423b90",
+        "signature": "1e944cc6ded676cf0fe9081082500695c11310c89bb7e4c1a5385f17f8423b90",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/HamburgerBoring.d.ts": {
+        "version": "66422cfdf9a67b19940d9733bbc0d8602a0a0e1b5d113da7c94636a4de83c17d",
+        "signature": "66422cfdf9a67b19940d9733bbc0d8602a0a0e1b5d113da7c94636a4de83c17d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/index.d.ts": {
+        "version": "7261722d13270fe0b03099d862270da9232065f127c2ee2b4dbba537a94fcdc4",
+        "signature": "7261722d13270fe0b03099d862270da9232065f127c2ee2b4dbba537a94fcdc4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/HamburgerCollapse.d.ts": {
+        "version": "c2ea5e22688f7c2211c3ded583f1e0d354a73b6e45de53f0fe62e474b2f91390",
+        "signature": "c2ea5e22688f7c2211c3ded583f1e0d354a73b6e45de53f0fe62e474b2f91390",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/index.d.ts": {
+        "version": "fc860369e41389448cd5c6d25535f3262a095167242b035eeaa0b00f5103acf6",
+        "signature": "fc860369e41389448cd5c6d25535f3262a095167242b035eeaa0b00f5103acf6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/HamburgerCollapseReverse.d.ts": {
+        "version": "40802d2580324b28105fec24daaefd9ec2a978f7573ac83d900d5d3c5f2c0442",
+        "signature": "40802d2580324b28105fec24daaefd9ec2a978f7573ac83d900d5d3c5f2c0442",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/index.d.ts": {
+        "version": "8238c76797bc3c698e19851cf3fa4e0781bd1e34bfba920daf7ee49e0726034c",
+        "signature": "8238c76797bc3c698e19851cf3fa4e0781bd1e34bfba920daf7ee49e0726034c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/HamburgerElastic.d.ts": {
+        "version": "2085c54259455cbdf91e14483ca0bf1d1f5c42508993a0145668afc5858bfec7",
+        "signature": "2085c54259455cbdf91e14483ca0bf1d1f5c42508993a0145668afc5858bfec7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/index.d.ts": {
+        "version": "ad3d6a0b8cf276e4d143c3ff358b14313a95f81a533303ffa27abfd27df5d6ee",
+        "signature": "ad3d6a0b8cf276e4d143c3ff358b14313a95f81a533303ffa27abfd27df5d6ee",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/HamburgerElasticReverse.d.ts": {
+        "version": "5c0dc855123aec6bee970d0ac807694ab6b1af69327402e32b88317478c0eb50",
+        "signature": "5c0dc855123aec6bee970d0ac807694ab6b1af69327402e32b88317478c0eb50",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/index.d.ts": {
+        "version": "c45bd60377226de2372d025846fd0c399e102f035ee1ae834d5e41133e01912d",
+        "signature": "c45bd60377226de2372d025846fd0c399e102f035ee1ae834d5e41133e01912d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/HamburgerEmphatic.d.ts": {
+        "version": "9fc19b747466c3cdd27eac99044afc92e94d32a9e1200349ca4c160fc8ee3282",
+        "signature": "9fc19b747466c3cdd27eac99044afc92e94d32a9e1200349ca4c160fc8ee3282",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/index.d.ts": {
+        "version": "be44f85da2701e4118344f2f107001140e7ce238ee3eb3a7785be9c58235dd11",
+        "signature": "be44f85da2701e4118344f2f107001140e7ce238ee3eb3a7785be9c58235dd11",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/HamburgerEmphaticReverse.d.ts": {
+        "version": "72a8d495f621262ca3e85c4d817034b5aa05a1b00c5d135d357b6edcee0de225",
+        "signature": "72a8d495f621262ca3e85c4d817034b5aa05a1b00c5d135d357b6edcee0de225",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/index.d.ts": {
+        "version": "85def7ef1769db71006bbb09db8732a00752c54268c8be841db2bba6c65687ff",
+        "signature": "85def7ef1769db71006bbb09db8732a00752c54268c8be841db2bba6c65687ff",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/HamburgerMinus.d.ts": {
+        "version": "26316053b5fe492169fb734fb4c7e4f9e0d37f24c2e4f72d706ded442d852390",
+        "signature": "26316053b5fe492169fb734fb4c7e4f9e0d37f24c2e4f72d706ded442d852390",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/index.d.ts": {
+        "version": "b9e30e93b9aeb12ec8e3f742284a2e7835cea0d282ad2b13bdac950bd2d80bca",
+        "signature": "b9e30e93b9aeb12ec8e3f742284a2e7835cea0d282ad2b13bdac950bd2d80bca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/HamburgerSlider.d.ts": {
+        "version": "6578f14d180ae4f481789cf0bfa87daae24c6db16df7dd189cc68b3472975690",
+        "signature": "6578f14d180ae4f481789cf0bfa87daae24c6db16df7dd189cc68b3472975690",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/index.d.ts": {
+        "version": "aab040ab8872d9bd6730004beb0b3b93996ba8d0aa8296ada7a353121780b1cb",
+        "signature": "aab040ab8872d9bd6730004beb0b3b93996ba8d0aa8296ada7a353121780b1cb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/HamburgerSliderReverse.d.ts": {
+        "version": "b279bdac25ef9425c0c9dad7702e2c1ac5d4a9ca53d597e5c4adc53e5ae93ab6",
+        "signature": "b279bdac25ef9425c0c9dad7702e2c1ac5d4a9ca53d597e5c4adc53e5ae93ab6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/index.d.ts": {
+        "version": "bc38d1af3ba7b348a1c5a05de78ff88a14ae12081851ad00332d8045bbc30a87",
+        "signature": "bc38d1af3ba7b348a1c5a05de78ff88a14ae12081851ad00332d8045bbc30a87",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/HamburgerSpin.d.ts": {
+        "version": "c38232f54b808c56e6f8f0900150fd15f9f56c4cab8aa7bb7f9217c74c94dc1f",
+        "signature": "c38232f54b808c56e6f8f0900150fd15f9f56c4cab8aa7bb7f9217c74c94dc1f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/index.d.ts": {
+        "version": "ba1c6e30b80d30b4d092accda43bf9e9dcf97a112f3812c137bd60326b7b0285",
+        "signature": "ba1c6e30b80d30b4d092accda43bf9e9dcf97a112f3812c137bd60326b7b0285",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/HamburgerSpinReverse.d.ts": {
+        "version": "4c849a1f296f0ac671f76111c46362896f7b107f1532375fd47fa7a2c0abc633",
+        "signature": "4c849a1f296f0ac671f76111c46362896f7b107f1532375fd47fa7a2c0abc633",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/index.d.ts": {
+        "version": "62aa6b203c046937367d6458ec2a8f2e94beab416485653d6050e0bd3b10fce1",
+        "signature": "62aa6b203c046937367d6458ec2a8f2e94beab416485653d6050e0bd3b10fce1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/HamburgerSpring.d.ts": {
+        "version": "4c16360612c76ba0504deeacbccd78b1eb1cf51900eea7ecb37e27cf3dafedc1",
+        "signature": "4c16360612c76ba0504deeacbccd78b1eb1cf51900eea7ecb37e27cf3dafedc1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/index.d.ts": {
+        "version": "41387ac6365530e2f7cd17e67627db76a10498f3f701b5e90fde8fbd1a4048af",
+        "signature": "41387ac6365530e2f7cd17e67627db76a10498f3f701b5e90fde8fbd1a4048af",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/HamburgerSqueeze.d.ts": {
+        "version": "b1328bfdfd1b601690ddaba78fd72c527a23420a6ebe55c8dac6fcd09d51c7ec",
+        "signature": "b1328bfdfd1b601690ddaba78fd72c527a23420a6ebe55c8dac6fcd09d51c7ec",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/index.d.ts": {
+        "version": "d477a99c13dbc230290f6ad930507b078e1835bfc236fb33bbcc1f9f21bfb037",
+        "signature": "d477a99c13dbc230290f6ad930507b078e1835bfc236fb33bbcc1f9f21bfb037",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/HamburgerStand.d.ts": {
+        "version": "d5a5a2c8e727da82d35268aacc38bfaf667decfbaec0fb55aa6a0643a2afb25d",
+        "signature": "d5a5a2c8e727da82d35268aacc38bfaf667decfbaec0fb55aa6a0643a2afb25d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/index.d.ts": {
+        "version": "92b0783c92f5b447ea4a5efb7a39420d173daf6805adc63b880ccb437446375b",
+        "signature": "92b0783c92f5b447ea4a5efb7a39420d173daf6805adc63b880ccb437446375b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/HamburgerStandReverse.d.ts": {
+        "version": "792b3e4d6bc23bf4d96f0a99ed6cd9d24ab0f40ae43decdb1e2a7d7879e95f18",
+        "signature": "792b3e4d6bc23bf4d96f0a99ed6cd9d24ab0f40ae43decdb1e2a7d7879e95f18",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/index.d.ts": {
+        "version": "5f6a4cd193fca51e1fef616d3ef4f3d32df66b5b18813fa1f166c6af039b4936",
+        "signature": "5f6a4cd193fca51e1fef616d3ef4f3d32df66b5b18813fa1f166c6af039b4936",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/HamburgerThreeDX.d.ts": {
+        "version": "6b8ab7e22a9292a8e09b4870af75441decdb386febc1956af68ff6dbf214f2bb",
+        "signature": "6b8ab7e22a9292a8e09b4870af75441decdb386febc1956af68ff6dbf214f2bb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/index.d.ts": {
+        "version": "9afb8bb318895de1a67624feed989030ac86a20b4ec670c11ac4c5dcdaeb2d08",
+        "signature": "9afb8bb318895de1a67624feed989030ac86a20b4ec670c11ac4c5dcdaeb2d08",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/HamburgerThreeDXReverse.d.ts": {
+        "version": "0a078d40489466413383d67373189b25faa298e01f6a6e1c592e7f8e7e5981a6",
+        "signature": "0a078d40489466413383d67373189b25faa298e01f6a6e1c592e7f8e7e5981a6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/index.d.ts": {
+        "version": "a114798bec489fe8a5e123cc49689dd109ca88ac60a8268c782ac74d162320c0",
+        "signature": "a114798bec489fe8a5e123cc49689dd109ca88ac60a8268c782ac74d162320c0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/HamburgerThreeDY.d.ts": {
+        "version": "62c86d34267a3397bf408aaa246812a59e404b04668641c8a15835597906af7f",
+        "signature": "62c86d34267a3397bf408aaa246812a59e404b04668641c8a15835597906af7f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/index.d.ts": {
+        "version": "daa226c9797b65f852edaf4b4272dea4c1779d80419edae9c64b5f473175bb8b",
+        "signature": "daa226c9797b65f852edaf4b4272dea4c1779d80419edae9c64b5f473175bb8b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/HamburgerThreeDYReverse.d.ts": {
+        "version": "dc6aca705871d4418329a71438c4d17647ec83480596a29748654bc834f67b00",
+        "signature": "dc6aca705871d4418329a71438c4d17647ec83480596a29748654bc834f67b00",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/index.d.ts": {
+        "version": "9f9cb3201688f4887a9b8dca96623019131f9076d73f40339e9ec2fcccd69499",
+        "signature": "9f9cb3201688f4887a9b8dca96623019131f9076d73f40339e9ec2fcccd69499",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/HamburgerThreeDXY.d.ts": {
+        "version": "693fa175d48c196ec5f5c0a91f4db03e41f17232e692e3050a8c18673135f208",
+        "signature": "693fa175d48c196ec5f5c0a91f4db03e41f17232e692e3050a8c18673135f208",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/index.d.ts": {
+        "version": "b7ddf1fa0270f1f9f8c9d2d5a27c11dffae83c847a27a16171305fc25e837749",
+        "signature": "b7ddf1fa0270f1f9f8c9d2d5a27c11dffae83c847a27a16171305fc25e837749",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/HamburgerThreeDXYReverse.d.ts": {
+        "version": "66a2f4bc60f00d8c2352da058b07e1f12c6a1c9fd57d79b3d77b1a6cac0cd900",
+        "signature": "66a2f4bc60f00d8c2352da058b07e1f12c6a1c9fd57d79b3d77b1a6cac0cd900",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/index.d.ts": {
+        "version": "494c17a6fed0479d4d79d0bec09a31d477b04f4c90d10e8f2143954430aa4fa9",
+        "signature": "494c17a6fed0479d4d79d0bec09a31d477b04f4c90d10e8f2143954430aa4fa9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/HamburgerVortex.d.ts": {
+        "version": "2b1a560eb25b6c8142b8ca75b9e29ee2c1f80d107404c0888a9b7eb3f08b9874",
+        "signature": "2b1a560eb25b6c8142b8ca75b9e29ee2c1f80d107404c0888a9b7eb3f08b9874",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/index.d.ts": {
+        "version": "2667fc99ec7e987e33fe362bf591aa3fc865eed22abe821f9ca161cde7039f21",
+        "signature": "2667fc99ec7e987e33fe362bf591aa3fc865eed22abe821f9ca161cde7039f21",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/HamburgerVortexReverse.d.ts": {
+        "version": "7a70d0c052e412e480ec0cd5b0fd72c4ffa562defba876c22ada64921bb33a61",
+        "signature": "7a70d0c052e412e480ec0cd5b0fd72c4ffa562defba876c22ada64921bb33a61",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts": {
+        "version": "6774e9ad4de90afc8cc83e893b91da15c030339e570e0a1925aebb2e3751398c",
+        "signature": "6774e9ad4de90afc8cc83e893b91da15c030339e570e0a1925aebb2e3751398c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-animated-burgers/lib/index.d.ts": {
+        "version": "b6e6184653f0c146e75972a819e50fbff9aeed832decc6b9d1302d192ca84c08",
+        "signature": "b6e6184653f0c146e75972a819e50fbff9aeed832decc6b9d1302d192ca84c08",
+        "affectsGlobalScope": false
+      },
       "./src/components/Topnav/Topnav.tsx": {
-        "version": "65d7e18850905f4810cf35cbfa8ca9e15552d0e6d301988714aaff7fef48b919",
-        "signature": "476eda01d8433cfd694b27d0f94eeced2214f54a5da8df0efedd370914968b89",
+        "version": "c6a5ef7d1dbb4884d7fc6b0ec30054ea08b675f28b9d0a7d75f051b8a700be0b",
+        "signature": "6010d0339abf5690d12b601df4007c4a5ede1aa7b1f05ce9caf7ff99aab18e01",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Sidebar/type.tsx": {
+        "version": "6abc6e5292260cfdf8bddff5c07b7f7fbbb36bd9483cc118ae4cc5449d293bf9",
+        "signature": "ca7b6dfea0e7e5ff58effb99e964f1e69ef1edd8dcb7887c773affab664c492c",
         "affectsGlobalScope": false
       },
       "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx": {
-        "version": "20fb595e3566cc3bfa8a786050eb273dc3de857a1fa44cdc60386c5e3d5f1c80",
-        "signature": "f2168f1df7b0c403516c2c01043dfa7a19c00dc1a1fcb4bf42f65bc7244b7c07",
+        "version": "f823f64a3d40d80b6d672462cb3c1fe07da0c4c51f344f6ec6cca28477354341",
+        "signature": "c6b0c860a8243df8a1856ce57a669c220da4936169f932fbd661425e5ac30c9b",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Sidebar/routes.tsx": {
+        "version": "b2e72d832c55d31302c5347e87296dea88cf710894248a403eecab10d2b306d9",
+        "signature": "b6bf377f28fffb6a4013c17fbd9d9caba9b3e1559389896d181e3c7d71d581b1",
         "affectsGlobalScope": false
       },
       "./src/components/Sidebar/Sidebar.tsx": {
-        "version": "a52dc2f07582c2126eec723b63cd85efb62941e0e6d8e198ca011194263720fb",
-        "signature": "70936c27e56ed4c66a44b5a31695847ae6ba5086315c89d341bace3aa772661d",
+        "version": "13be7b68e017c0f3610099b25db41b0a1e1a717ba68a994e3f88a2f9b13d6c65",
+        "signature": "9e5650fd017b58dfbff0dadbca6a954e4361f6a5a18be5f017facf68f9971040",
+        "affectsGlobalScope": false
+      },
+      "./src/components/TitlePage/type.tsx": {
+        "version": "ea0eedbbc0d46878421d8f3bbc191c320e9f59e4e8444d59f1b597ec46f1938d",
+        "signature": "f1c2fec9b8aa7af1d44fa4375f896cd7cba8557359bf6c45fbe51a6e654322df",
         "affectsGlobalScope": false
       },
       "./src/components/TitlePage/TitlePage.tsx": {
-        "version": "f52e681c406060f9333607d22d1216500f395d6f47dc0c9aad121a707dacf45e",
-        "signature": "4ad64568994322653b1ea631a35c09b9a2ae59e1370e9093fcfa36b5766199b3",
+        "version": "9545fd98c2f39e557bdb64297995060a4f2c7059d729b103c7de2e65b2bfda0c",
+        "signature": "e2ff7c20a0e42e634d1ccca283c586835b7ce3aa4eb658e94e472a6c4a89d9c1",
+        "affectsGlobalScope": false
+      },
+      "./src/components/AppLayout/type.tsx": {
+        "version": "fa77afc14d33e3cdd3276c568380feeb2c07767f82be702ae053b08965c4ec5a",
+        "signature": "02a51b2a1e22599481781df3343a8e0a384237e68fb9a3550bfba626b315982f",
         "affectsGlobalScope": false
       },
       "./src/components/AppLayout/AppLayout.tsx": {
-        "version": "958b2f5dfbd8a1071108b3d04366576c7ebf7633d07b04ecdfc74be756d245ff",
-        "signature": "b97a97cda475a1ef39c88f8f277a8f3da2170435387c9cba42f3f89bb0ef1ab4",
+        "version": "afac139e43247acf97b0ca9d9a59af4b1d5cffb18228ebeca7b13a3d793044c8",
+        "signature": "b45bd022e63297affc604f0bcdafabba6b4f51317d85a62d82ebcd4b44de0a1c",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Cards/type.tsx": {
+        "version": "f055d349fb84f82cc4aa5573b7614503706ab10c00f206a41763edd384d219f2",
+        "signature": "a1e7b783b8062a2549b7b9d95ec0c3c319568d5ff7ba1e748a7d71c465bbb0ec",
         "affectsGlobalScope": false
       },
       "./src/components/Cards/StatisticCard.tsx": {
-        "version": "1f1b63e54252520ffb41df36a635fb6e38d3049548e3df6f6f235fdb427c7d57",
-        "signature": "4fd6d6114f50d74a366c0b7280b407aeebca2b3e15c82276799fa23c57aa3c15",
+        "version": "48bba68ac4510ad4e9e81f8fd6c2bc3a4819caf9da6b00f31d92442b8baec81a",
+        "signature": "56f0e20f4071f92b64ac307ef00fc6e0d24f166a544197baf91eb48850ac33d0",
         "affectsGlobalScope": false
       },
       "./node_modules/axios/index.d.ts": {
@@ -2101,64 +2446,34 @@
         "signature": "87a282e415ff40dec5aeea68bd544d3c9d4c5fdfbdf79f9ec36e15e50409f3b7",
         "affectsGlobalScope": false
       },
+      "./src/components/Pagination/type.tsx": {
+        "version": "13fc351a08113f2c05decf70325101de9913b45057a07ea73e8d2e74bdac7c16",
+        "signature": "5a6210db1220354c7f813e6c9493ceb8de2d41559bea15a767e606fe8b3cec56",
+        "affectsGlobalScope": false
+      },
       "./src/components/Pagination/Pagination.tsx": {
-        "version": "e0af53b3a6c3f2aaaf1067095c8fa8cdaa8e72d3019b2ecdb1ff4399c204086f",
-        "signature": "be45a17dc5f84bf3429c84ef291d8263ef880baed745e8a2d72e4473ab88b90f",
+        "version": "6129ec5d7c919a995fb653c65914beea8f4984046f27e0bf1589a800191c7452",
+        "signature": "ce4c7f3ff28d263998aaa99a0f2343995b8646c8312b388e63ece65f99dfbc42",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Table/type.tsx": {
+        "version": "8a92bd337b374400be14b1c0314729f0c26c6ea31f3934acd30a17b161fbb204",
+        "signature": "b282da5b9f9fc96299e8f096b2d1cc4a9df152590a847af274c398c683fc1229",
         "affectsGlobalScope": false
       },
       "./src/components/Table/Table.tsx": {
-        "version": "8b9862a857bf67d14ec7f3cdeb967781a169343a78a1ed4231e644531ad8a202",
-        "signature": "5d57b82522e8ccb5fca1c9cade15571953af408fc3397055c6ac592cccc8a7a0",
+        "version": "89f48dd747048be5f28523166923d5058f35666704b2d17bcf211aa680f7420f",
+        "signature": "b6e0337c35476cf3b8f54285768d107985067e693b7c8d0ed3e90571e8cbed1b",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Table/headTable.tsx": {
+        "version": "3274025dad55386acff9f8cb04d588ac48509e88e2a353a5686b3039a0b49119",
+        "signature": "b60272a66e69aaf06c7b70c6c9c8d24faf08b6a24df3056f9387dc34b0353a42",
         "affectsGlobalScope": false
       },
       "./src/components/Table/PassengersTable.tsx": {
-        "version": "cb0da6711a7fcccfe0eb163f66810f6b1f9e96938b57f137579bda5db24eb22a",
+        "version": "f7f2b6b83e5d1d53015e4746a4f468bc6b64215af8d8cec01ecea3c5d711afe2",
         "signature": "b40ae9f25f29a62a974b704f1a527f9acd3db9022748e64f81d7398a1ebcd8bb",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/utils.d.ts": {
-        "version": "fc5db7a2359c8edf6cd402ba3d1e5d48b55fc52d8a3497c77c33d71ad54e0832",
-        "signature": "fc5db7a2359c8edf6cd402ba3d1e5d48b55fc52d8a3497c77c33d71ad54e0832",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/adapters.d.ts": {
-        "version": "4e2e0b0cd1fe009e6e7b02ac9f1939ef5d9d003ddab9435d7d58d325ac5e9c73",
-        "signature": "4e2e0b0cd1fe009e6e7b02ac9f1939ef5d9d003ddab9435d7d58d325ac5e9c73",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/basic.d.ts": {
-        "version": "18103f01db6b9e920b88fd304598e41611d48810930c8d2be1c698cfcce80a97",
-        "signature": "18103f01db6b9e920b88fd304598e41611d48810930c8d2be1c698cfcce80a97",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/animation.d.ts": {
-        "version": "aea53f2b0e2b2c55c5d425d9f9257b9c66334c21c765f3d348d7c206aa7eb378",
-        "signature": "aea53f2b0e2b2c55c5d425d9f9257b9c66334c21c765f3d348d7c206aa7eb378",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/color.d.ts": {
-        "version": "9c88eebb75b82b4ccb9412c7e3035e40e188ea3d7dcb010ff87986b7ff629555",
-        "signature": "9c88eebb75b82b4ccb9412c7e3035e40e188ea3d7dcb010ff87986b7ff629555",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/geometric.d.ts": {
-        "version": "9cd5f1e367fc8a6b4d01dc4e86228e88bc8c5492edd57d3cfa77ea177f34a506",
-        "signature": "9cd5f1e367fc8a6b4d01dc4e86228e88bc8c5492edd57d3cfa77ea177f34a506",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/element.d.ts": {
-        "version": "27e4ceeef93fb248ba7d02391cf73f77e42d4bee18d233d0a3fadcaa1a2d0944",
-        "signature": "27e4ceeef93fb248ba7d02391cf73f77e42d4bee18d233d0a3fadcaa1a2d0944",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/layout.d.ts": {
-        "version": "9d01cd4f12ab3fa736274159f8e671b9b9ff15872a8164df1e46736117c43799",
-        "signature": "9d01cd4f12ab3fa736274159f8e671b9b9ff15872a8164df1e46736117c43799",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/chart.js/types/index.esm.d.ts": {
-        "version": "8bfcf8b877c9c35185c80466732e1262db1298f1239608160ec8e3f23dedcbe0",
-        "signature": "8bfcf8b877c9c35185c80466732e1262db1298f1239608160ec8e3f23dedcbe0",
         "affectsGlobalScope": false
       },
       "./node_modules/react-chartjs-2/index.d.ts": {
@@ -2166,9 +2481,19 @@
         "signature": "a781ba222a737288ebd5c6003bcc70377f1b6b54db89b3c9c9de64f661c9d5d0",
         "affectsGlobalScope": false
       },
+      "./src/components/Charts/type.tsx": {
+        "version": "6b10b3fcd902be1c109e61e7af457a498d5096becb691da78ca3aa5abb8c97d6",
+        "signature": "9a31573e83f2240c08640cfe2414e87edd7a5dce497936ed67a1e9ce64e9c91a",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Charts/StatisticsSectionChart.tsx": {
+        "version": "5344a9dcccc54d5d90ad7d159b1790bf5e6281f3c1e1fce0b0c8a72ff1449cde",
+        "signature": "0bfc99e5c3a55cd8983d40bf29d3d75ad226860fdd1df673eb85ad9e1f4e88d3",
+        "affectsGlobalScope": false
+      },
       "./src/pages/dashboard/Dashboard.tsx": {
-        "version": "9cabc3afefde8a5ca1ba891f77334750435c909505268901076523fda2496c37",
-        "signature": "1c869392746033dec827d8f2d88bce55c57a49dad3baf519ab1b91d1efb7084f",
+        "version": "e235ee1c0ac6a3b7a6a073eb3573f77f89f4b49a4f06154d31213ac8703e12cc",
+        "signature": "3aca13e4b09dfe5babef3cc6a8a6b98afd160c0ce14602ac7a1eed52b8e17067",
         "affectsGlobalScope": false
       },
       "./src/App.tsx": {
@@ -2193,6 +2518,11 @@
       "./src/components/Sections/ContentSection.tsx": {
         "version": "b6e32feb216f9772cc476dd97a0704503985426204bf028db3b08eee18d9c0c8",
         "signature": "2f445dae6d19be9ccc7510afc413d0adf8af5541c6c4c35ea734e0032df69efe",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Topnav/type.tsx": {
+        "version": "6b10b3fcd902be1c109e61e7af457a498d5096becb691da78ca3aa5abb8c97d6",
+        "signature": "9a31573e83f2240c08640cfe2414e87edd7a5dce497936ed67a1e9ce64e9c91a",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/anymatch/index.d.ts": {
@@ -4619,26 +4949,6 @@
       "./node_modules/@types/yargs/index.d.ts": [
         "./node_modules/@types/yargs-parser/index.d.ts"
       ],
-      "./node_modules/chart.js/types/animation.d.ts": [
-        "./node_modules/chart.js/types/basic.d.ts",
-        "./node_modules/chart.js/types/index.esm.d.ts"
-      ],
-      "./node_modules/chart.js/types/element.d.ts": [
-        "./node_modules/chart.js/types/geometric.d.ts"
-      ],
-      "./node_modules/chart.js/types/index.esm.d.ts": [
-        "./node_modules/chart.js/types/adapters.d.ts",
-        "./node_modules/chart.js/types/animation.d.ts",
-        "./node_modules/chart.js/types/basic.d.ts",
-        "./node_modules/chart.js/types/color.d.ts",
-        "./node_modules/chart.js/types/element.d.ts",
-        "./node_modules/chart.js/types/geometric.d.ts",
-        "./node_modules/chart.js/types/layout.d.ts",
-        "./node_modules/chart.js/types/utils.d.ts"
-      ],
-      "./node_modules/chart.js/types/layout.d.ts": [
-        "./node_modules/chart.js/types/geometric.d.ts"
-      ],
       "./node_modules/jest-diff/build/diffLines.d.ts": [
         "./node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "./node_modules/jest-diff/build/types.d.ts"
@@ -4656,9 +4966,262 @@
       "./node_modules/pretty-format/build/index.d.ts": [
         "./node_modules/pretty-format/build/types.d.ts"
       ],
-      "./node_modules/react-chartjs-2/index.d.ts": [
+      "./node_modules/react-animated-burgers/lib/components/Button/Button.d.ts": [
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/chart.js/types/index.esm.d.ts"
+        "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/Button/Button.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/HamburgerArrow.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/HamburgerArrow.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/HamburgerArrowAlt.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/HamburgerArrowAlt.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/HamburgerArrowAltReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/HamburgerArrowAltReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/HamburgerArrowReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/HamburgerArrowReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/HamburgerArrowTurn.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/HamburgerArrowTurn.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/HamburgerArrowTurnReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/HamburgerArrowTurnReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/HamburgerBoring.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/HamburgerBoring.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/HamburgerCollapse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/HamburgerCollapse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/HamburgerCollapseReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/HamburgerCollapseReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/HamburgerElastic.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/HamburgerElastic.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/HamburgerElasticReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/HamburgerElasticReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/HamburgerEmphatic.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/HamburgerEmphatic.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/HamburgerEmphaticReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/HamburgerEmphaticReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/HamburgerMinus.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/HamburgerMinus.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/HamburgerSlider.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/HamburgerSlider.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/HamburgerSliderReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/HamburgerSliderReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/HamburgerSpin.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/HamburgerSpin.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/HamburgerSpinReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/HamburgerSpinReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/HamburgerSpring.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/HamburgerSpring.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/HamburgerSqueeze.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/HamburgerSqueeze.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/HamburgerStand.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStand/HamburgerStand.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/HamburgerStandReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/HamburgerStandReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/HamburgerThreeDX.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/HamburgerThreeDX.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/HamburgerThreeDXReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/HamburgerThreeDXReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/HamburgerThreeDXY.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/HamburgerThreeDXY.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/HamburgerThreeDXYReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/HamburgerThreeDXYReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/HamburgerThreeDY.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/HamburgerThreeDY.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/HamburgerThreeDYReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/HamburgerThreeDYReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/HamburgerVortex.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/HamburgerVortex.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/HamburgerVortexReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/HamburgerVortexReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStand/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts"
+      ],
+      "./node_modules/react-chartjs-2/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
@@ -4669,18 +5232,31 @@
       ],
       "./src/components/AppLayout/AppLayout.tsx": [
         "./node_modules/@types/react/index.d.ts",
+        "./src/components/AppLayout/type.tsx",
         "./src/components/Sidebar/Sidebar.tsx",
         "./src/components/TitlePage/TitlePage.tsx",
         "./src/components/Topnav/Topnav.tsx"
       ],
+      "./src/components/AppLayout/type.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/Cards/StatisticCard.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/Cards/type.tsx"
+      ],
+      "./src/components/Charts/StatisticsSectionChart.tsx": [
+        "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/axios/index.d.ts",
+        "./node_modules/react-chartjs-2/index.d.ts",
+        "./src/components/Charts/type.tsx"
       ],
       "./src/components/Pagination/Pagination.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
         "./node_modules/@types/prop-types/index.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/Pagination/type.tsx"
       ],
       "./src/components/Sections/ContentSection.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -4691,30 +5267,38 @@
         "./src/components/Cards/StatisticCard.tsx"
       ],
       "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx": [
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/Sidebar/type.tsx"
       ],
       "./src/components/Sidebar/Sidebar.tsx": [
         "./node_modules/@types/react/index.d.ts",
-        "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx"
+        "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx",
+        "./src/components/Sidebar/routes.tsx",
+        "./src/components/Sidebar/type.tsx"
       ],
       "./src/components/Table/PassengersTable.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/axios/index.d.ts",
-        "./src/components/Table/Table.tsx"
+        "./src/components/Table/Table.tsx",
+        "./src/components/Table/headTable.tsx",
+        "./src/components/Table/type.tsx"
       ],
       "./src/components/Table/Table.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./src/components/Pagination/Pagination.tsx"
+        "./src/components/Pagination/Pagination.tsx",
+        "./src/components/Table/type.tsx"
       ],
       "./src/components/TitlePage/TitlePage.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/TitlePage/type.tsx"
       ],
       "./src/components/Topnav/Topnav.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/index.d.ts"
       ],
       "./src/index.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
@@ -4724,9 +5308,10 @@
         "./src/App.tsx"
       ],
       "./src/pages/dashboard/Dashboard.tsx": [
+        "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/react-chartjs-2/index.d.ts",
         "./src/components/AppLayout/AppLayout.tsx",
+        "./src/components/Charts/StatisticsSectionChart.tsx",
         "./src/components/Sections/StatisticsSection.tsx",
         "./src/components/Table/PassengersTable.tsx"
       ]
@@ -6516,26 +7101,6 @@
       "./node_modules/@types/yargs/index.d.ts": [
         "./node_modules/@types/yargs-parser/index.d.ts"
       ],
-      "./node_modules/chart.js/types/animation.d.ts": [
-        "./node_modules/chart.js/types/basic.d.ts",
-        "./node_modules/chart.js/types/index.esm.d.ts"
-      ],
-      "./node_modules/chart.js/types/element.d.ts": [
-        "./node_modules/chart.js/types/geometric.d.ts"
-      ],
-      "./node_modules/chart.js/types/index.esm.d.ts": [
-        "./node_modules/chart.js/types/adapters.d.ts",
-        "./node_modules/chart.js/types/animation.d.ts",
-        "./node_modules/chart.js/types/basic.d.ts",
-        "./node_modules/chart.js/types/color.d.ts",
-        "./node_modules/chart.js/types/element.d.ts",
-        "./node_modules/chart.js/types/geometric.d.ts",
-        "./node_modules/chart.js/types/layout.d.ts",
-        "./node_modules/chart.js/types/utils.d.ts"
-      ],
-      "./node_modules/chart.js/types/layout.d.ts": [
-        "./node_modules/chart.js/types/geometric.d.ts"
-      ],
       "./node_modules/jest-diff/build/diffLines.d.ts": [
         "./node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "./node_modules/jest-diff/build/types.d.ts"
@@ -6553,6 +7118,260 @@
       "./node_modules/pretty-format/build/index.d.ts": [
         "./node_modules/pretty-format/build/types.d.ts"
       ],
+      "./node_modules/react-animated-burgers/lib/components/Button/Button.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/Button/Button.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/HamburgerArrow.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/HamburgerArrow.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/HamburgerArrowAlt.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/HamburgerArrowAlt.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/HamburgerArrowAltReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/HamburgerArrowAltReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/HamburgerArrowReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/HamburgerArrowReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/HamburgerArrowTurn.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/HamburgerArrowTurn.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/HamburgerArrowTurnReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/HamburgerArrowTurnReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/HamburgerBoring.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/HamburgerBoring.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/HamburgerCollapse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/HamburgerCollapse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/HamburgerCollapseReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/HamburgerCollapseReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/HamburgerElastic.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/HamburgerElastic.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/HamburgerElasticReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/HamburgerElasticReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/HamburgerEmphatic.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/HamburgerEmphatic.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/HamburgerEmphaticReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/HamburgerEmphaticReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/HamburgerMinus.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/HamburgerMinus.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/HamburgerSlider.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/HamburgerSlider.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/HamburgerSliderReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/HamburgerSliderReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/HamburgerSpin.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/HamburgerSpin.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/HamburgerSpinReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/HamburgerSpinReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/HamburgerSpring.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/HamburgerSpring.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/HamburgerSqueeze.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/HamburgerSqueeze.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/HamburgerStand.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStand/HamburgerStand.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/HamburgerStandReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/HamburgerStandReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/HamburgerThreeDX.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/HamburgerThreeDX.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/HamburgerThreeDXReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/HamburgerThreeDXReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/HamburgerThreeDXY.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/HamburgerThreeDXY.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/HamburgerThreeDXYReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/HamburgerThreeDXYReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/HamburgerThreeDY.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/HamburgerThreeDY.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/HamburgerThreeDYReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/HamburgerThreeDYReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/HamburgerVortex.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/HamburgerVortex.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/HamburgerVortexReverse.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/HamburgerVortexReverse.d.ts"
+      ],
+      "./node_modules/react-animated-burgers/lib/index.d.ts": [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStand/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/index.d.ts",
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts"
+      ],
       "./node_modules/react-chartjs-2/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/chart.js/types/index.esm.d.ts"
@@ -6561,16 +7380,33 @@
         "./node_modules/symbol-observable/index.d.ts"
       ],
       "./src/components/AppLayout/AppLayout.tsx": [
+        "./src/components/AppLayout/type.tsx"
+      ],
+      "./src/components/AppLayout/type.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/Cards/StatisticCard.tsx": [
+        "./src/components/Cards/type.tsx"
+      ],
       "./src/components/Pagination/Pagination.tsx": [
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/Pagination/type.tsx"
       ],
       "./src/components/Sections/ContentSection.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx": [
+        "./src/components/Sidebar/type.tsx"
+      ],
+      "./src/components/Sidebar/Sidebar.tsx": [
+        "./src/components/Sidebar/type.tsx"
+      ],
       "./src/components/Table/Table.tsx": [
-        "./node_modules/@types/prop-types/index.d.ts"
+        "./node_modules/@types/prop-types/index.d.ts",
+        "./src/components/Table/type.tsx"
+      ],
+      "./src/components/TitlePage/TitlePage.tsx": [
+        "./src/components/TitlePage/type.tsx"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -7056,15 +7892,6 @@
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
       "./node_modules/axios/index.d.ts",
-      "./node_modules/chart.js/types/adapters.d.ts",
-      "./node_modules/chart.js/types/animation.d.ts",
-      "./node_modules/chart.js/types/basic.d.ts",
-      "./node_modules/chart.js/types/color.d.ts",
-      "./node_modules/chart.js/types/element.d.ts",
-      "./node_modules/chart.js/types/geometric.d.ts",
-      "./node_modules/chart.js/types/index.esm.d.ts",
-      "./node_modules/chart.js/types/layout.d.ts",
-      "./node_modules/chart.js/types/utils.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/jest-diff/build/cleanupSemantic.d.ts",
       "./node_modules/jest-diff/build/diffLines.d.ts",
@@ -7073,6 +7900,70 @@
       "./node_modules/jest-diff/build/types.d.ts",
       "./node_modules/pretty-format/build/index.d.ts",
       "./node_modules/pretty-format/build/types.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/Button/Button.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/HamburgerArrow.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/HamburgerArrowAlt.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/HamburgerArrowAltReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/HamburgerArrowReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/HamburgerArrowTurn.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/HamburgerArrowTurnReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/HamburgerBoring.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/HamburgerCollapse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/HamburgerCollapseReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/HamburgerElastic.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/HamburgerElasticReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/HamburgerEmphatic.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/HamburgerEmphaticReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/HamburgerMinus.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/HamburgerSlider.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/HamburgerSliderReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/HamburgerSpin.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/HamburgerSpinReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/HamburgerSpring.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/HamburgerSqueeze.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/HamburgerStand.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStand/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/HamburgerStandReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/HamburgerThreeDX.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/HamburgerThreeDXReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/HamburgerThreeDXY.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/HamburgerThreeDXYReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/HamburgerThreeDY.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/HamburgerThreeDYReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/HamburgerVortex.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/HamburgerVortexReverse.d.ts",
+      "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts",
+      "./node_modules/react-animated-burgers/lib/index.d.ts",
       "./node_modules/react-chartjs-2/index.d.ts",
       "./node_modules/redux/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
@@ -7123,16 +8014,92 @@
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "./src/App.tsx",
       "./src/components/AppLayout/AppLayout.tsx",
+      "./src/components/AppLayout/type.tsx",
       "./src/components/Cards/StatisticCard.tsx",
+      "./src/components/Cards/type.tsx",
+      "./src/components/Charts/StatisticsSectionChart.tsx",
+      "./src/components/Charts/type.tsx",
       "./src/components/Pagination/Pagination.tsx",
+      "./src/components/Pagination/type.tsx",
       "./src/components/Sections/ContentSection.tsx",
       "./src/components/Sections/StatisticsSection.tsx",
       "./src/components/Sidebar/ItemSidebar/ItemSidebar.tsx",
       "./src/components/Sidebar/Sidebar.tsx",
+      "./src/components/Sidebar/routes.tsx",
+      "./src/components/Sidebar/type.tsx",
       "./src/components/Table/PassengersTable.tsx",
-      "./src/components/Table/Table.tsx",
+      [
+        "./src/components/Table/Table.tsx",
+        [
+          {
+            "file": "./src/components/Table/Table.tsx",
+            "start": 711,
+            "length": 3,
+            "messageText": "Binding element '_id' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7031
+          },
+          {
+            "file": "./src/components/Table/Table.tsx",
+            "start": 716,
+            "length": 4,
+            "messageText": "Binding element 'name' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7031
+          },
+          {
+            "file": "./src/components/Table/Table.tsx",
+            "start": 722,
+            "length": 5,
+            "messageText": "Binding element 'trips' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7031
+          },
+          {
+            "file": "./src/components/Table/Table.tsx",
+            "start": 731,
+            "length": 5,
+            "messageText": "Parameter 'index' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/components/Table/Table.tsx",
+            "start": 1735,
+            "length": 8,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ title: string; }[]' is not assignable to type 'NonEmptyArray<IndexTableHeading>'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Source provides no match for required element at position 0 in target.",
+                  "category": 1,
+                  "code": 2623
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./node_modules/@shopify/polaris/dist/types/latest/src/components/IndexTable/IndexTable.d.ts",
+                "start": 339,
+                "length": 8,
+                "messageText": "The expected type comes from property 'headings' which is declared here on type 'IntrinsicAttributes & IndexTableProps'",
+                "category": 3,
+                "code": 6500
+              }
+            ]
+          }
+        ]
+      ],
+      "./src/components/Table/headTable.tsx",
+      "./src/components/Table/type.tsx",
       "./src/components/TitlePage/TitlePage.tsx",
+      "./src/components/TitlePage/type.tsx",
       "./src/components/Topnav/Topnav.tsx",
+      "./src/components/Topnav/type.tsx",
       "./src/index.tsx",
       "./src/pages/dashboard/Dashboard.tsx"
     ],
@@ -9134,6 +10101,262 @@
         1
       ],
       [
+        "./node_modules/react-animated-burgers/lib/components/Button/Button.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/Button/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/Button/types.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/HamburgerArrow.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrow/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/HamburgerArrowAlt.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAlt/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/HamburgerArrowAltReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowAltReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/HamburgerArrowReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/HamburgerArrowTurn.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurn/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/HamburgerArrowTurnReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerArrowTurnReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/HamburgerBoring.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerBoring/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/HamburgerCollapse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/HamburgerCollapseReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerCollapseReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/HamburgerElastic.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElastic/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/HamburgerElasticReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerElasticReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/HamburgerEmphatic.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphatic/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/HamburgerEmphaticReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerEmphaticReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/HamburgerMinus.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerMinus/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/HamburgerSlider.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSlider/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/HamburgerSliderReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSliderReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/HamburgerSpin.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpin/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/HamburgerSpinReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpinReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/HamburgerSpring.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSpring/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/HamburgerSqueeze.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerSqueeze/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStand/HamburgerStand.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStand/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/HamburgerStandReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerStandReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/HamburgerThreeDX.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDX/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/HamburgerThreeDXReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/HamburgerThreeDXY.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXY/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/HamburgerThreeDXYReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDXYReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/HamburgerThreeDY.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDY/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/HamburgerThreeDYReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerThreeDYReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/HamburgerVortex.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortex/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/HamburgerVortexReverse.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-animated-burgers/lib/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/react-chartjs-2/index.d.ts",
         1
       ],
@@ -9186,11 +10409,31 @@
         1
       ],
       [
+        "./src/components/AppLayout/type.tsx",
+        1
+      ],
+      [
         "./src/components/Cards/StatisticCard.tsx",
         1
       ],
       [
+        "./src/components/Cards/type.tsx",
+        1
+      ],
+      [
+        "./src/components/Charts/StatisticsSectionChart.tsx",
+        1
+      ],
+      [
+        "./src/components/Charts/type.tsx",
+        1
+      ],
+      [
         "./src/components/Pagination/Pagination.tsx",
+        1
+      ],
+      [
+        "./src/components/Pagination/type.tsx",
         1
       ],
       [
@@ -9210,6 +10453,14 @@
         1
       ],
       [
+        "./src/components/Sidebar/routes.tsx",
+        1
+      ],
+      [
+        "./src/components/Sidebar/type.tsx",
+        1
+      ],
+      [
         "./src/components/Table/PassengersTable.tsx",
         1
       ],
@@ -9218,11 +10469,27 @@
         1
       ],
       [
+        "./src/components/Table/headTable.tsx",
+        1
+      ],
+      [
+        "./src/components/Table/type.tsx",
+        1
+      ],
+      [
         "./src/components/TitlePage/TitlePage.tsx",
         1
       ],
       [
+        "./src/components/TitlePage/type.tsx",
+        1
+      ],
+      [
         "./src/components/Topnav/Topnav.tsx",
+        1
+      ],
+      [
+        "./src/components/Topnav/type.tsx",
         1
       ],
       [

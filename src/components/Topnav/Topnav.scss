@@ -26,3 +26,12 @@
       float: right;
     }
   }
+
+  @media only screen and (max-width: 1400px) {
+    .app-topbar {
+      right: 0;
+      z-index: 1000;
+      left: 0px;
+    }
+  
+  }

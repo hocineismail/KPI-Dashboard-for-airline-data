@@ -1,33 +1,20 @@
 import React  from 'react'
 import ItemSIdebar from './ItemSidebar/ItemSidebar';
+//import types
+import { IMenu } from './type';
+
+//import Fake routes for our project
+import { routesList } from './routes';
+
+//import style
 import './Sidebar.scss';
-const routesList = [
-    {
-      path: "/",
-      name: "Dashboard",
-      icon: "fas fa-tachometer-alt"
-   },
-   {
-      path: "/passengers",
-      name: "passengers",
-      icon: "fas fa-users"
-    },
-    {
-        path: "/",
-        name: "",
-        icon: "fas fa-users"
-    },
-    {
-        path: "/",
-        name: "",
-        icon: "fas fa-users"
-    }
-]
-function Sidebar(): JSX.Element {
+
+function Sidebar({ isOpen  }: IMenu ): JSX.Element {
     
     return (
         <div className="app-grid-sidebar">
-            <div className="app-sidebar">
+           
+            <div className={`app-sidebar ${ isOpen ? "push-menu" : ""}`}>
             <div className="app-sidebar-header">
                 <img
                    className="app-sidebar-logo"

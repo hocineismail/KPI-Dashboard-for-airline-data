@@ -1,13 +1,12 @@
  
  .app-section-pagination {
    background-color: white;
-   padding: 3px;
+   padding: 5px;
    display: grid;
-   grid-template-columns: auto 250px 100px ;
-   box-sizing: border-box;  
+   grid-template-columns: auto 300px ;
+   box-sizing: border-box;
  }
-.pagination {
-    
+.pagination { 
     margin: 0px;
     padding: 0px;
 }
@@ -25,7 +24,7 @@
   cursor: pointer;
   padding: 4px 8px;
   text-decoration: none;
-  transition: background-color .3s;
+  transition: 0.3s;
 }
   
 .pagination a.active {
@@ -45,10 +44,21 @@
   pointer-events:none; //This makes it not clickable
   opacity:0.6;
 }
+.app-pagination-indecator {
+  margin: 10px 10px 10px 0px;
+  text-align: 'right';
+  float: left;
+}
 
-
-@media only screen and (max-width: 1200) {
+@media only screen and (max-width: 1300px) {
   .app-section-pagination { 
-    grid-template-columns: 1fr;
+    text-align: center !important ;
+ 
+    grid-template-columns: 1fr !important ;
   }
+  .app-pagination-indecator {
+    margin: 10px 10px 10px 0px;
+    text-align: 'center' !important ;
+  }
+
 } 

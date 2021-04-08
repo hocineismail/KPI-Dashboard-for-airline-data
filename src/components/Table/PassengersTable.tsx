@@ -1,20 +1,18 @@
 import React from 'react';
 import axios from 'axios';
+
+//import components
 import Table from './Table';
-import './Table.scss'
 
+//import types
+import { Ipagination,  IdataPassengers} from './type';
+import { headerTablePassengers } from './headTable'
+//import css
+import './Table.scss';
 
-interface Ipagination {
-    totalPage: number;
-    row: string;
-    currentPage: number;
-}
-interface Idata {
-    _id: string, name: string, trips: string
-}
 export default function PassengersTable(): JSX.Element {
 
-    const [data, setdata] = React.useState<Idata[]>([]);
+    const [data, setdata] = React.useState<IdataPassengers[]>([]);
     const [loading, setloading] = React.useState<boolean>(true);
     const [paginationData, setpaginationData] = React.useState<Ipagination>({
         totalPage: 0,
@@ -53,12 +51,15 @@ const onChangeRow  = (row: string) => {
  }
 
   return (
+     <div style={{display: 'relative'}}> 
     <Table  
         data={data} 
         paginationData={paginationData}
+        headerTable={headerTablePassengers}
         loading={loading}
         onchangePage={(value)=>onChnagePage(value)} 
         onChangeRow={(value)=>onChangeRow(value)}
     />
+    </div>
   )
 }

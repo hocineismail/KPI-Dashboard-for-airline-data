@@ -1,6 +1,9 @@
 // import shopify css 
 @import './styles.css'; 
 html, body {
-    margin: 0;
+    margin: 0; 
+    width: 100%;
+    overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
   }
+ 

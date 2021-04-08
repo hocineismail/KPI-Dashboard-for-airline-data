@@ -1,7 +1,8 @@
-// create variable
+//Variable
 $background-color: #F8F8F8;
+
 .app-page {
-  display:grid;
+  display: grid;
   grid-template-columns: 300px auto; 
 }
 
@@ -18,9 +19,9 @@ $background-color: #F8F8F8;
 @media only screen and (max-width: 1400px) {
   .app-page {
     display: block;
-    grid-template-columns:   auto; 
+    grid-template-columns: auto; 
   }
   .app-container {
-    padding: 20px 10px; 
+    padding: 10px 5px; 
   }
 }

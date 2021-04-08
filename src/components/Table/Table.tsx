@@ -1,26 +1,17 @@
 import React from 'react'
+import { Card, IndexTable , TextStyle, useIndexResourceState} from '@shopify/polaris'; 
 
-import { Card,  IndexTable , TextStyle, useIndexResourceState} from '@shopify/polaris'; 
-import Pagination from '../Pagination/Pagination'
+//import components
+import Pagination from '../Pagination/Pagination';
 
-//
+//import types
+import { Itable } from './type';
+
+//import PropTypes
 import PropTypes from 'prop-types'; 
 
-type Props = {  
-
-    onchangePage: (s: number) => void;  
-    onChangeRow: (s: string) => void;  
-    data: {
-         _id: string, name: string, trips: string
-    }[];
-    paginationData: {
-        totalPage: number,
-        row: string,
-        currentPage: number,
-    }; 
-    loading: boolean
-  }
-function Table({ onchangePage, onChangeRow, paginationData, data, loading}:Props): JSX.Element {
+ 
+function Table({ onchangePage, onChangeRow, headerTable, paginationData, data, loading}: Itable): JSX.Element {
     const resourceName = {
        singular: 'Passenger',
        plural: 'Passengers'
@@ -38,9 +29,6 @@ function Table({ onchangePage, onChangeRow, paginationData, data, loading}:Props
       key={_id} 
       selected={selectedResources.includes(_id)} 
       position={index}>
-   <IndexTable.Cell>
-         <TextStyle></TextStyle>
-   </IndexTable.Cell>
     <IndexTable.Cell>
          <TextStyle >{_id}</TextStyle>
    </IndexTable.Cell>
@@ -61,28 +49,23 @@ function Table({ onchangePage, onChangeRow, paginationData, data, loading}:Props
     </IndexTable.Row>);
  
   return (
-        <div>
-        <Card>
+        <div style={{  margin: '20px'}}>
+ 
+  <Card title="All Passengers" sectioned>
         <IndexTable 
           resourceName={resourceName} 
           itemCount={(data || []).length} 
           selectedItemsCount={allResourcesSelected ? 'All' : selectedResources.length} 
           onSelectionChange={handleSelectionChange}
-          headings={
-            [
-                   { title: '#' },
-                   { title: 'ID' },
-                   { title: 'Name' },
-                   { title: 'Number of trips' },
-                   { title: 'Total amount paid for flights' }
-               ]
-          } 
+          headings={headerTable} 
           condensed={false} 
           hasMoreItems={true} 
           loading={loading}>
           {rowMarkup}
         </IndexTable>  
         </Card>
+ 
+
       <div className="app-table-pagination">
       <Pagination 
             onchangePage={onchangePage}
