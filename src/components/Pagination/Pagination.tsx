@@ -49,8 +49,9 @@ interface ToggleProps {
 
 
     return (
-        <>
-        <ul className="pagination">
+        <div className="app-section-pagination">
+            <div> 
+    <ul className="pagination">
         <li className={currentPage === 0 ? 'disabled' : ''}>
             <a onClick={() => onchangePage(0)}> {`<<`}</a>
         </li>
@@ -75,24 +76,26 @@ interface ToggleProps {
             <a onClick={() => onchangePage(totalPage - 1)}> {`>>`}</a>
         </li>
     </ul>
-    <div>
-        {(parseInt(row) * currentPage + 1)}-{(parseInt(row) * currentPage) + parseInt(row)} of {totalPage}
-
-    <div style={{width: 100}}>
+    </div>
+    <div style={{ margin: '10px 10px 10px 0px ', textAlign: 'right'}}>
+       Rows per page: {(parseInt(row) * currentPage + 1)}-{(parseInt(row) * currentPage) + parseInt(row)} of {totalPage}
+    </div>
+    <div  style={{width: '80px'}}>
     <Select
-        label="Row"
-        labelInline
+        label=" "
+        labelInline         
         options={[
             {label: '10', value: '10'},
-            {label: '25', value: '25'},
-            {label: '30', value: '25'},
+            {label: '25', value: '25'},                                                                                                     
+            {label: '30', value: '30'},
+            {label: '50', value: '50'},
           ]}
         onChange={(value) => onChangeRow(value)}
         value={row.toString()}
       />
     </div>
+   
     </div>
-    </>
     )
 }
 

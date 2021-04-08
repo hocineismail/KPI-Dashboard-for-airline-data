@@ -1,13 +1,27 @@
  
+ .app-section-pagination {
+   background-color: white;
+   padding: 3px;
+   display: grid;
+   grid-template-columns: auto 250px 100px ;
+   box-sizing: border-box;  
+ }
 .pagination {
-    display: inline-block;
+    
+    margin: 0px;
+    padding: 0px;
 }
  .pagination li {
   display:inline;
+ 
 }
 .pagination a {
-  color: black;
+  color: #028ECC;
   float: left;
+  border: 1px solid #028ECC;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 2px;
   cursor: pointer;
   padding: 4px 8px;
   text-decoration: none;
@@ -24,9 +38,17 @@
   color: white;
   border: 1px solid #028ECC;
 }
-.pagination a:hover:not(.active) {background-color: #ddd;}
-
+.pagination a:hover:not(.active) {background-color: #028fcc3f;}
+ 
 .disabled {
+  cursor: pointer;
   pointer-events:none; //This makes it not clickable
   opacity:0.6;
 }
+
+
+@media only screen and (max-width: 1200) {
+  .app-section-pagination { 
+    grid-template-columns: 1fr;
+  }
+} 

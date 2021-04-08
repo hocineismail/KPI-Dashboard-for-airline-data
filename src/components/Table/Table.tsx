@@ -81,15 +81,17 @@ function Table({ onchangePage, onChangeRow, paginationData, data, loading}:Props
           hasMoreItems={true} 
           loading={loading}>
           {rowMarkup}
-        </IndexTable> 
-          <Pagination 
+        </IndexTable>  
+        </Card>
+      <div className="app-table-pagination">
+      <Pagination 
             onchangePage={onchangePage}
             onChangeRow={onChangeRow}
             totalPage={paginationData.totalPage} 
             row={paginationData.row} 
             currentPage={paginationData.currentPage} 
-            />
-        </Card>
+       />
+      </div>
       </div>
     )
 }

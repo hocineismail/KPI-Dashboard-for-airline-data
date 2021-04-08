@@ -7,7 +7,7 @@ export default function Topnav(): JSX.Element {
             <ul>
                 <li> 
                 <div style={{float: 'left'}}>
-                  <p style={{textAlign: 'right', marginRight: '10px'}}>
+                  <p style={{textAlign: 'right', marginRight: '10px '}}>
                   ISMAIL HOCINE
                     <br />
                     ismailhocine93@gmail.com

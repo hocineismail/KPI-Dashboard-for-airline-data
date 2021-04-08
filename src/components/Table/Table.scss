@@ -1,13 +1,17 @@
   
-.Polaris-DataTable__ScrollContainer          { overflow-y: auto; height: 30vh; }
-.Polaris-DataTable__ScrollContainer thead th { position: sticky; top: 0; }
+.Polaris-IndexTable__Table          { overflow-y: auto; height: 30vh; }
+.Polaris-IndexTable__Table thead th { position: sticky; top: 0; }
   
   /* Just common table stuff. Really. */
 table  { border-collapse: collapse; width: 100%; }
 th, td { padding: 8px 16px; }
 th     { background:#fff; }
 
-
+.Polaris-IndexTable-ScrollContainer {
+  overflow-y: auto !important;
+  height: 40vh !important;
+  
+}
 .Polaris-IndexTable__TableHeading {
   font-weight: 700 !important;
 }
