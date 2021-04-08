@@ -1,6 +1,9 @@
 // create variable
 $background-color: #F8F8F8;
-  
+.app-page {
+  display:grid;
+  grid-template-columns: 300px auto; 
+}
 
 .app-main-view{
   margin-left: 0px;
@@ -10,4 +13,12 @@ $background-color: #F8F8F8;
   padding: 100px 50px;
   background-color: $background-color;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 1400px) {
+  .app-page {
+    display: block;
+    grid-template-columns:   auto; 
+  }
+
 }

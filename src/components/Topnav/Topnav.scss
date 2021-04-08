@@ -1,17 +1,17 @@
-html,body {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-}
+
 .app-topbar {
+   
     position: fixed;
     height: 70px;
     background-color: white;
     right: 0;
+    z-index: 1000;
     left: 300px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); 
+    box-shadow: 0 2px 4x 0 rgba(0,0,0,.2); 
     ul {
+      float: right;
       margin: 0;
-      padding: 20px;
+      padding: 10px;
       list-style: none;
     }
     li {
@@ -19,7 +19,10 @@ html,body {
     }
     a {
       display: block;
-      padding: 6px 12px;
+      padding: 2px 2px;
       text-decoration: none;
+    }
+    .app-topbar-avatar {
+      float: right;
     }
   }

@@ -8,7 +8,7 @@ export default function Dashboard(): JSX.Element {
     return (
         <AppLayout title='Default'>
             <StatisticsSection />
-            <PassengersTable />
+            <PassengersTable />  
         </AppLayout>
     )
 }
