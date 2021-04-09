@@ -30,23 +30,14 @@ import './Pagination.scss'
                    
                 } else if (currentPage + 3 >= totalPage) {
                      // current page more then 100 so we need to reduce  number of page for mobile device
-                   if (currentPage > 90) {
-                     startPage = totalPage - 3;
-                     endPage = totalPage + 1;
-                   } else {
+                   
                      startPage = totalPage - 5;
                      endPage = totalPage + 1;
-                   }
+                   
                 } else {
                      // current page more then 100 so we need to reduce  number of page for mobile device
-                    if (currentPage > 90) {
-                        startPage = currentPage - 1;
-                        endPage = currentPage + 3;
-                      } else {   
-                        startPage = currentPage - 1;
-                        endPage = currentPage + 4;
-                      }
-
+                    startPage = currentPage - 1;
+                    endPage = currentPage + 4;
                 }
             } 
             // generate our pages
@@ -66,20 +57,33 @@ import './Pagination.scss'
           <div> 
             <ul className="pagination">
                 <li className={currentPage === 0 ? 'disabled' : ''}>
-                <a onClick={() => onchangePage(0)}> {`<<`}</a>
-            </li>
+                    <a onClick={() => onchangePage(0)}> {`<<`}</a>
+                </li>
                 <li className={currentPage === 0 ? 'disabled' : ''}>
-                <a onClick={() => onchangePage(currentPage - 1)}> {`<`} </a>
-            </li>
+                    <a onClick={() => onchangePage(currentPage - 1)}> {`<`} </a>
+                </li>
 
-                {navifation.map((page, index) =>
-                    <li key={index}>
-                        <a 
-                          onClick={() => onchangePage(page - 1)} 
-                          className={ currentPage + 1  === page ? 'active' : ''} 
-                          >{page}</a>
-                    </li>
-                )}
+                <li className={currentPage === 0 ? 'hide' : 'visible-only-small-screen' }>
+                    <a onClick={() => onchangePage(currentPage > 5 ?  (currentPage - 5) : 0 )}> 
+                    {currentPage > 4 ?  '-5' : `-${(5) - (5 - currentPage - 1)}` }
+                    </a>
+                </li>
+                    {navifation.map((page, index) =>
+                        <li key={index} className={currentPage + 1  === page ? '' : 'visible-only-big-screen'}>
+                            <a 
+                            onClick={() => onchangePage(page - 1)} 
+                            className={ currentPage + 1  === page ? 'active' : ''} 
+                            >{page}</a>
+                        </li>
+                    )}
+                 <li className={currentPage ===( totalPage - 1)? 'hide' : 'visible-only-small-screen' }>
+                    <a onClick={() => onchangePage(totalPage - (totalPage - currentPage - 1))}> 
+                    {currentPage < (totalPage - 4)  ?  '+5' : `+${(totalPage - currentPage - 1)}` }
+                    </a>
+                </li>  
+                {/* <li className={currentPage === 0 ? '' : ''}>
+                    <a onClick={() => onchangePage(currentPage + 5)}> {`+5`} </a>
+                </li>    */}
                 <li className={currentPage === totalPage - 1 ? 'disabled' : ''}>
                     <a onClick={() => onchangePage(currentPage + 1)}> {`>`}</a>
                 </li>
@@ -90,7 +94,8 @@ import './Pagination.scss'
           </div>
           <div className="app-pagination-indecator" >
             <ul >
-                <li style={{paddingRight: '5px', fontSize: '12px'}}className="app-pagination-list"> Rows per page: {(parseInt(row) * currentPage + 1)}-{(parseInt(row) * currentPage) + parseInt(row)} of {totalPage} </li>
+                <li style={{paddingRight: '5px', fontSize: '12px'}}className="app-pagination-list">
+                 {(parseInt(row) * currentPage + 1)}-{(parseInt(row) * currentPage) + parseInt(row)} of {totalPage} </li>
                 <li className="app-pagination-list">    <Select
                     label=" "
                     labelInline         

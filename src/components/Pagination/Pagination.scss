@@ -32,6 +32,7 @@
    .app-pagination-text-indecator {
     padding: 4px !important;
    }
+
   } 
 }
 
@@ -49,6 +50,7 @@
   text-decoration: none;
   transition: 0.3s;
 }
+
   
 .pagination a.active {
   background-color: #028ECC;
@@ -67,6 +69,30 @@
   pointer-events:none; //This makes it not clickable
   opacity:0.6;
 }
-.hide-list {
-  display: none;
+
+.hide {
+  visibility: hidden !important;
+  display: none !important;
+}
+
+.visible-only-big-screen {
+  visibility: visible !important;
+  display: inline-block !important;
+}
+
+.visible-only-small-screen {
+  visibility: hidden !important;
+  display: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .visible-only-big-screen {
+    visibility: hidden !important;
+    display: none !important;
+  }
+
+  .visible-only-small-screen {
+    visibility: visible !important;
+    display: inline-block !important;
+  }
 }
