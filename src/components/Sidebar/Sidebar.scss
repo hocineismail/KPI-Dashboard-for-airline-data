@@ -20,6 +20,7 @@
     transition: 0.3s;
  
  };
+ 
 .push-menu {
    left: 0px !important;
 }
@@ -49,12 +50,12 @@
 .app-sidebar-navigation li {
    cursor: pointer;
    margin-left: 0px;
-  color: white; 
-  font-size: 2rem;
-  padding: 15px; 
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px; 
-  transition: 0.3s
+   color: white; 
+   font-size: 2rem;
+   padding: 15px; 
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px; 
+   transition: 0.3s
 //   background-color: white !important;
    
 }

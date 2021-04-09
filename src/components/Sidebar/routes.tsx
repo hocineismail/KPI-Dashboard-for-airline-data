@@ -2,22 +2,27 @@
 export const routesList = [
     {
       path: "/",
-      name: "Dashboard",
-      icon: "fas fa-tachometer-alt"
+      name: "Analytics",
+      icon: "far fa-chart-bar"
    },
    {
       path: "/passengers",
       name: "passengers",
       icon: "fas fa-users"
+    }, 
+    {
+      path: "/",
+      name: "Messages",
+      icon: "fas fa-envelope" 
+    }, 
+    {
+        path: "/",
+        name: "Airline",
+        icon: "fas fa-plane-departure"
     },
     {
         path: "/",
-        name: "",
-        icon: "fas fa-users"
-    },
-    {
-        path: "/",
-        name: "",
-        icon: "fas fa-users"
+        name: "Log out",
+        icon: "fas fa-sign-out-alt"
     }
   ] 

@@ -23,9 +23,7 @@ export default function StatisticsSectionChart(): JSX.Element {
     function fetchPassengers (url: string) { 
         axios
         .get(url)
-        .then(response => {    
-            console.log(response.data.data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          )
-           
+        .then(response => {  
             const result = generateDataChart(response.data.data);
             console.log(result)
             setdata(result) 
@@ -51,12 +49,16 @@ export default function StatisticsSectionChart(): JSX.Element {
             backgroundColor: [
             '#FF6384',
             '#36A2EB',
-            '#FFCE56'
+            '#FFCE56',
+            '#C56A4B',
+            '#EEE796'
             ],
             hoverBackgroundColor: [
             '#FF6384',
             '#36A2EB',
-            '#FFCE56'
+            '#FFCE56',
+            '#C56A4B',
+            '#EEE796'
             ]
         }]
     };
@@ -64,7 +66,7 @@ export default function StatisticsSectionChart(): JSX.Element {
         labels: data.label,
         datasets: [
           {
-            label: 'My First dataset',
+            label: 'Trips of the last 5 passegers',
             fill: false,
             lineTension: 0.1,
             backgroundColor: 'rgba(75,192,192,0.4)',
@@ -90,12 +92,12 @@ export default function StatisticsSectionChart(): JSX.Element {
     return (
         <div>
             <div className="app-card-margin">
-                <Card title="title" >
+                <Card title="Trips statistics" >
                     <Line data={dataL} />  
                 </Card>
             </div>
             <div className="app-card-margin">
-                <Card title="title" >
+                <Card title="Trips statistics" >
                     <Doughnut data={dataD} />
                 </Card>
             </div> 

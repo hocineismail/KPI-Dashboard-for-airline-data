@@ -2402,12 +2402,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/Sidebar/routes.tsx": {
-        "version": "b2e72d832c55d31302c5347e87296dea88cf710894248a403eecab10d2b306d9",
+        "version": "d215e39941e7a7c9d589204ef52631100fb676df402d904d0135480f61a92e7a",
         "signature": "b6bf377f28fffb6a4013c17fbd9d9caba9b3e1559389896d181e3c7d71d581b1",
         "affectsGlobalScope": false
       },
       "./src/components/Sidebar/Sidebar.tsx": {
-        "version": "13be7b68e017c0f3610099b25db41b0a1e1a717ba68a994e3f88a2f9b13d6c65",
+        "version": "e707113000a468b68504f494c58e165f994d1ca32786adf41f514be7b9e6dd82",
         "signature": "9e5650fd017b58dfbff0dadbca6a954e4361f6a5a18be5f017facf68f9971040",
         "affectsGlobalScope": false
       },
@@ -2457,7 +2457,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/Pagination/Pagination.tsx": {
-        "version": "916de12c18bef1e1e8671c69a6dd9b9aa546ddbe454bc14af13fde34d5d2ebd3",
+        "version": "138db4edcea6fc0d8519ba59aead7ba7db6cc1997c5032257dc7df31188d1d74",
         "signature": "ce4c7f3ff28d263998aaa99a0f2343995b8646c8312b388e63ece65f99dfbc42",
         "affectsGlobalScope": false
       },
@@ -2467,12 +2467,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/Table/Table.tsx": {
-        "version": "d43a92f79cddf520080d0406c1ad1486b7811236c979946cf29d990b7e4f119e",
+        "version": "d1d8b03b236d49886f100af8d7c6be801e7e486740870d675a09e7f351dc0d73",
         "signature": "8b79f5700082c96732dd1de3a75810735b537cbb1077a93e40352ec1586f1d3c",
         "affectsGlobalScope": false
       },
       "./src/components/Table/PassengersTable.tsx": {
-        "version": "9371d5ae81090684af87c83b3845c08f08e83ffb6d1f69990727823f72c42a74",
+        "version": "a36382da976f542bf9154e85e9df9b18742f432e4121a5d7db47810828c249bf",
         "signature": "b40ae9f25f29a62a974b704f1a527f9acd3db9022748e64f81d7398a1ebcd8bb",
         "affectsGlobalScope": false
       },
@@ -2487,12 +2487,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/Charts/StatisticsSectionChart.tsx": {
-        "version": "09fb1bed62c62a9a08b398cad99f6a9107f09557564e94a41b37f98c2c5e980e",
+        "version": "be5436ee6cde945925986486ddd91ef3a7558733431476e73f29c18c729e8dc2",
         "signature": "f34b987e1460ee8b424dd13cb2a1c9ddc9dc284104cf96cfc1ed1ae536d00a9e",
         "affectsGlobalScope": false
       },
       "./src/pages/dashboard/Dashboard.tsx": {
-        "version": "e235ee1c0ac6a3b7a6a073eb3573f77f89f4b49a4f06154d31213ac8703e12cc",
+        "version": "91e4c0236c89be1186a98b69dd10947f40d35def21829767bdfe45adf989dcef",
         "signature": "3aca13e4b09dfe5babef3cc6a8a6b98afd160c0ce14602ac7a1eed52b8e17067",
         "affectsGlobalScope": false
       },
@@ -2518,11 +2518,6 @@
       "./src/components/Sections/ContentSection.tsx": {
         "version": "b6e32feb216f9772cc476dd97a0704503985426204bf028db3b08eee18d9c0c8",
         "signature": "2f445dae6d19be9ccc7510afc413d0adf8af5541c6c4c35ea734e0032df69efe",
-        "affectsGlobalScope": false
-      },
-      "./src/components/Table/headTable.tsx": {
-        "version": "2c3b65596c047ea336139ba9ec38aed449769ee30c1345e3b75cc7353f6cb014",
-        "signature": "f1746835590b12c5c71fddc9a1468b4a1e107afe3e185f4c504ae2929a86da02",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/anymatch/index.d.ts": {
@@ -8032,7 +8027,6 @@
       "./src/components/Sidebar/type.tsx",
       "./src/components/Table/PassengersTable.tsx",
       "./src/components/Table/Table.tsx",
-      "./src/components/Table/headTable.tsx",
       "./src/components/Table/type.tsx",
       "./src/components/TitlePage/TitlePage.tsx",
       "./src/components/TitlePage/type.tsx",

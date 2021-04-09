@@ -6,7 +6,7 @@ import Table from './Table';
 
 //import types
 import { Ipagination,  IdataPassengers} from './type';
-// import { headerTablePassengers } from './headTable'
+
 //import css
 import './Table.scss';
 const userTestStatus: { title: string}[] = [

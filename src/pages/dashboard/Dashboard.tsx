@@ -10,20 +10,15 @@ export default function Dashboard(): JSX.Element {
 
     return ( 
         <AppLayout title='Dashboard' >
-          <StatisticsSection /> 
-        
-         <Layout >  
-          <Layout.Section secondary>
-          <StatisticsSectionChart />
-          </Layout.Section>
- 
-         
-          <Layout.Section >
-          <PassengersTable />  
-          </Layout.Section>
-          
-          </Layout>
-          
+          <StatisticsSection />  
+          <Layout >  
+            <Layout.Section secondary>
+              <StatisticsSectionChart />
+            </Layout.Section> 
+            <Layout.Section >
+              <PassengersTable />  
+            </Layout.Section> 
+          </Layout> 
         </AppLayout> 
     )
 }

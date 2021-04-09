@@ -13,8 +13,7 @@ import PropTypes from 'prop-types';
  
 function Table({ 
          onchangePage, 
-         onChangeRow, 
-        //  headerTable, 
+         onChangeRow,  
          paginationData, 
          data, 
          loading}: Itable): JSX.Element {

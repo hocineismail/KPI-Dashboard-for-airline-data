@@ -6,8 +6,9 @@ html, body {
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
   }
-  
-  .about {
+ 
+
+.about {
     $cubic: cubic-bezier(0.64, 0.01, 0.07, 1.65);
     $transition: 0.6s $cubic;
     $size: 40px;
@@ -152,10 +153,7 @@ html, body {
  }
  
  @import url("https://fonts.googleapis.com/css?family=Oxygen:700&display=swap");
- 
- body {
-    margin: 0;
- }
+  
  
  $bg: #171f30;
  $c-01: #5389a6;
