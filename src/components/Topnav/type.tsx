@@ -1,4 +1,4 @@
-export interface Idata {
-  label: string[];
-  data: number[]
+export type ITopnav  = {
+  isOpen: boolean,
+  onOpenMenu: () => void;    
   }

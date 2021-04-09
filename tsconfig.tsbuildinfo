@@ -2381,9 +2381,14 @@
         "signature": "b6e6184653f0c146e75972a819e50fbff9aeed832decc6b9d1302d192ca84c08",
         "affectsGlobalScope": false
       },
+      "./src/components/Topnav/type.tsx": {
+        "version": "47f5ed1a3643a8dc3613599c2061ad56ff6d9986c327038f5e74c99185edb549",
+        "signature": "79489592bce86ef0b0a1e94e8095fe77646bd665988655da7a7e4275d8e034f1",
+        "affectsGlobalScope": false
+      },
       "./src/components/Topnav/Topnav.tsx": {
-        "version": "c6a5ef7d1dbb4884d7fc6b0ec30054ea08b675f28b9d0a7d75f051b8a700be0b",
-        "signature": "6010d0339abf5690d12b601df4007c4a5ede1aa7b1f05ce9caf7ff99aab18e01",
+        "version": "04df6d1b66dfc0bf39e8b5df7b963b9d5618e6f00f7e2c9c972ed6806e2fc9d8",
+        "signature": "c8bc3779ef0f1b9b3a20afded9d61ec905dbbeab562e6e7e388e6b50f89fc4aa",
         "affectsGlobalScope": false
       },
       "./src/components/Sidebar/type.tsx": {
@@ -2412,8 +2417,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/TitlePage/TitlePage.tsx": {
-        "version": "9545fd98c2f39e557bdb64297995060a4f2c7059d729b103c7de2e65b2bfda0c",
-        "signature": "e2ff7c20a0e42e634d1ccca283c586835b7ce3aa4eb658e94e472a6c4a89d9c1",
+        "version": "996053de2fbc1aef80b2dc14ac4613fa26f89f73fed2a6a61305928cde73e578",
+        "signature": "8ce0ca3ab9ee3fa1ba01b375b38f4db2ec2b439fa4fb516a8bb2e69f910c65b3",
         "affectsGlobalScope": false
       },
       "./src/components/AppLayout/type.tsx": {
@@ -2422,7 +2427,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/AppLayout/AppLayout.tsx": {
-        "version": "afac139e43247acf97b0ca9d9a59af4b1d5cffb18228ebeca7b13a3d793044c8",
+        "version": "42daabb04fb6e1a8423b75f7ccbf3e64c03e4cfa83c8ec874b2b9211c388d3f1",
         "signature": "b45bd022e63297affc604f0bcdafabba6b4f51317d85a62d82ebcd4b44de0a1c",
         "affectsGlobalScope": false
       },
@@ -2432,8 +2437,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/Cards/StatisticCard.tsx": {
-        "version": "48bba68ac4510ad4e9e81f8fd6c2bc3a4819caf9da6b00f31d92442b8baec81a",
-        "signature": "56f0e20f4071f92b64ac307ef00fc6e0d24f166a544197baf91eb48850ac33d0",
+        "version": "498d1a47ed03141cd1110085fec193c232ad93045830643e5a4584084cc544b0",
+        "signature": "7b57d5301e560bba1d2c7cafbb7f61935953274e8f4f97421921fd866965d8b3",
         "affectsGlobalScope": false
       },
       "./node_modules/axios/index.d.ts": {
@@ -2452,7 +2457,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/Pagination/Pagination.tsx": {
-        "version": "6129ec5d7c919a995fb653c65914beea8f4984046f27e0bf1589a800191c7452",
+        "version": "916de12c18bef1e1e8671c69a6dd9b9aa546ddbe454bc14af13fde34d5d2ebd3",
         "signature": "ce4c7f3ff28d263998aaa99a0f2343995b8646c8312b388e63ece65f99dfbc42",
         "affectsGlobalScope": false
       },
@@ -2462,17 +2467,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/Table/Table.tsx": {
-        "version": "7661638587b48a33d5f9c4d092882d8df712c2fde8d73a3094bb842de570c7c2",
-        "signature": "d0e9a0a5c2dfa1aab3805ccc035817257ff5a23a004bc90ae7ed629b4130a0e4",
-        "affectsGlobalScope": false
-      },
-      "./src/components/Table/headTable.tsx": {
-        "version": "3274025dad55386acff9f8cb04d588ac48509e88e2a353a5686b3039a0b49119",
-        "signature": "b60272a66e69aaf06c7b70c6c9c8d24faf08b6a24df3056f9387dc34b0353a42",
+        "version": "d43a92f79cddf520080d0406c1ad1486b7811236c979946cf29d990b7e4f119e",
+        "signature": "8b79f5700082c96732dd1de3a75810735b537cbb1077a93e40352ec1586f1d3c",
         "affectsGlobalScope": false
       },
       "./src/components/Table/PassengersTable.tsx": {
-        "version": "f7f2b6b83e5d1d53015e4746a4f468bc6b64215af8d8cec01ecea3c5d711afe2",
+        "version": "9371d5ae81090684af87c83b3845c08f08e83ffb6d1f69990727823f72c42a74",
         "signature": "b40ae9f25f29a62a974b704f1a527f9acd3db9022748e64f81d7398a1ebcd8bb",
         "affectsGlobalScope": false
       },
@@ -2487,8 +2487,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/Charts/StatisticsSectionChart.tsx": {
-        "version": "5344a9dcccc54d5d90ad7d159b1790bf5e6281f3c1e1fce0b0c8a72ff1449cde",
-        "signature": "0bfc99e5c3a55cd8983d40bf29d3d75ad226860fdd1df673eb85ad9e1f4e88d3",
+        "version": "09fb1bed62c62a9a08b398cad99f6a9107f09557564e94a41b37f98c2c5e980e",
+        "signature": "f34b987e1460ee8b424dd13cb2a1c9ddc9dc284104cf96cfc1ed1ae536d00a9e",
         "affectsGlobalScope": false
       },
       "./src/pages/dashboard/Dashboard.tsx": {
@@ -2497,7 +2497,7 @@
         "affectsGlobalScope": false
       },
       "./src/App.tsx": {
-        "version": "24d6d4bbf41c8ed8ba40167c01ed0c607a1a1906d8dc381ffbbf0996e696cf31",
+        "version": "5eeea59bfd4ac7e98a8856844b95e63e286268810212ab99f8f49a430a4a415f",
         "signature": "a1a6e3a011a9728017a80ff4ae440253ab4da26282020ea1928694373f1c5fc4",
         "affectsGlobalScope": false
       },
@@ -2520,9 +2520,9 @@
         "signature": "2f445dae6d19be9ccc7510afc413d0adf8af5541c6c4c35ea734e0032df69efe",
         "affectsGlobalScope": false
       },
-      "./src/components/Topnav/type.tsx": {
-        "version": "6b10b3fcd902be1c109e61e7af457a498d5096becb691da78ca3aa5abb8c97d6",
-        "signature": "9a31573e83f2240c08640cfe2414e87edd7a5dce497936ed67a1e9ce64e9c91a",
+      "./src/components/Table/headTable.tsx": {
+        "version": "2c3b65596c047ea336139ba9ec38aed449769ee30c1345e3b75cc7353f6cb014",
+        "signature": "f1746835590b12c5c71fddc9a1468b4a1e107afe3e185f4c504ae2929a86da02",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/anymatch/index.d.ts": {
@@ -5280,7 +5280,6 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/axios/index.d.ts",
         "./src/components/Table/Table.tsx",
-        "./src/components/Table/headTable.tsx",
         "./src/components/Table/type.tsx"
       ],
       "./src/components/Table/Table.tsx": [
@@ -5298,7 +5297,8 @@
       "./src/components/Topnav/Topnav.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/react-animated-burgers/lib/index.d.ts"
+        "./node_modules/react-animated-burgers/lib/index.d.ts",
+        "./src/components/Topnav/type.tsx"
       ],
       "./src/index.tsx": [
         "./node_modules/@shopify/polaris/dist/types/latest/src/index.d.ts",
@@ -7407,6 +7407,9 @@
       ],
       "./src/components/TitlePage/TitlePage.tsx": [
         "./src/components/TitlePage/type.tsx"
+      ],
+      "./src/components/Topnav/Topnav.tsx": [
+        "./src/components/Topnav/type.tsx"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -8028,40 +8031,7 @@
       "./src/components/Sidebar/routes.tsx",
       "./src/components/Sidebar/type.tsx",
       "./src/components/Table/PassengersTable.tsx",
-      [
-        "./src/components/Table/Table.tsx",
-        [
-          {
-            "file": "./src/components/Table/Table.tsx",
-            "start": 1795,
-            "length": 8,
-            "code": 2322,
-            "category": 1,
-            "messageText": {
-              "messageText": "Type '{ title: string; }[]' is not assignable to type 'NonEmptyArray<IndexTableHeading>'.",
-              "category": 1,
-              "code": 2322,
-              "next": [
-                {
-                  "messageText": "Source provides no match for required element at position 0 in target.",
-                  "category": 1,
-                  "code": 2623
-                }
-              ]
-            },
-            "relatedInformation": [
-              {
-                "file": "./node_modules/@shopify/polaris/dist/types/latest/src/components/IndexTable/IndexTable.d.ts",
-                "start": 339,
-                "length": 8,
-                "messageText": "The expected type comes from property 'headings' which is declared here on type 'IntrinsicAttributes & IndexTableProps'",
-                "category": 3,
-                "code": 6500
-              }
-            ]
-          }
-        ]
-      ],
+      "./src/components/Table/Table.tsx",
       "./src/components/Table/headTable.tsx",
       "./src/components/Table/type.tsx",
       "./src/components/TitlePage/TitlePage.tsx",

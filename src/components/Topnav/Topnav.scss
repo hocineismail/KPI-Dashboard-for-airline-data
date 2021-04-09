@@ -16,7 +16,7 @@
     .app-topbar-search-bar {
       float: left;
       margin: 15px;
-     
+      display: block;
     }
  
     .app-topbar-account {
@@ -24,27 +24,8 @@
       cursor: pointer;
       display: block;
       float: right;
-      p {
-        text-align: right;
-      }
+ 
     }
-    // ul {
-    //   float: right;
-    //   margin: 0;
-    //   padding: 10px;
-    //   list-style: none;
-    // }
-    // li {
-    //   display: inline-block;
-    // }
-    // a {
-    //   display: block;
-    //   padding: 2px 2px;
-    //   text-decoration: none;
-    // }
-    // .app-topbar-avatar {
-    //   float: right;
-    // }
   }
 
   @media only screen and (max-width: 1400px) {
@@ -57,8 +38,20 @@
         margin-top: 10px;
         float: left;
       }
+      .app-topbar-search-bar {
+        display: block;
+        margin: 15px 5px;
+        width: 150px;
+      }
+      .Polaris-TopBar-SearchField {
+        width: 150px !important;
+      }
+      .app-topbar-account {
+        margin: 15px 10px;
+        cursor: pointer;
+        display: block;
+        float: right;
+   
+      }
     }
-
-
-  
   }

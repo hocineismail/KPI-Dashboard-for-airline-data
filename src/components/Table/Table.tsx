@@ -14,7 +14,7 @@ import PropTypes from 'prop-types';
 function Table({ 
          onchangePage, 
          onChangeRow, 
-         headerTable, 
+        //  headerTable, 
          paginationData, 
          data, 
          loading}: Itable): JSX.Element {
