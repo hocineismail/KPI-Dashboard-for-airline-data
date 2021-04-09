@@ -1,0 +1,21 @@
+.app-section-content {
+  margin: 1000px;
+};
+
+.app-statistics-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    box-sizing: border-box; 
+}
+
+@media only screen and (max-width: 1000px) {
+  .app-statistics-section {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .app-statistics-section {
+    grid-template-columns: 1fr ; 
+  }
+}

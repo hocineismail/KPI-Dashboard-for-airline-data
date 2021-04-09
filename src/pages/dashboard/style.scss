@@ -1,0 +1,13 @@
+ 
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns:  25% 75%;  
+}
+ 
+
+@media only screen and (max-width: 1400px) {
+    .dashboard-grid { 
+        grid-template-columns:  100%;  
+    }
+  }

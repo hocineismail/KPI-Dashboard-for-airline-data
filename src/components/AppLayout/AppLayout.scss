@@ -1,0 +1,39 @@
+//Variable
+$background-color: #F8F8F8;
+
+.app-page {
+  display: grid;
+  grid-template-columns: 300px auto;  
+};
+
+.app-main-view {
+  margin-left: 0px;
+  transition: 0.3s;
+};
+
+.app-container {
+  padding: 100px 10px  10px  10px;
+  background-color: $background-color;
+  min-height: 100vh;
+};
+
+
+.push-main {
+  margin-left: 0px;
+  margin-right: 0px;
+ 
+}
+@media only screen and (max-width: 1400px) {
+  .app-page {
+    display: block;
+    grid-template-columns: auto; 
+  };
+  .app-container {
+    // margin-top: 200px;  
+    padding: 100px 5px 5px 5px; 
+  };
+  .push-main {
+    margin-left: 300px;
+    margin-right: -300px;
+  }
+}

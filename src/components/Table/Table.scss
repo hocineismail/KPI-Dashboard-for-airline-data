@@ -1,0 +1,25 @@
+  
+.Polaris-IndexTable__Table          { overflow-y: auto; height: 30vh; }
+.Polaris-IndexTable__Table thead th { 
+  position: sticky;
+  top: 0; 
+ 
+  z-index: 35 !important; }
+.Polaris-Card__Section {
+  position: relative;
+  width:  100% !important;
+}
+  /* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; min-height: 40vh !important;}
+th, td { padding: 8px 16px; }
+th     { background:#fff; }
+
+.Polaris-IndexTable-ScrollContainer {
+  overflow-y: auto !important;
+  height: 40vh !important;
+  
+}
+.Polaris-IndexTable__TableHeading {
+  font-weight: 700 !important;
+  min-height: 40vh !important;
+}

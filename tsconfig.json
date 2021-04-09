@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    // "outDir": "./dist/",
     "noImplicitAny": true,
     "module": "es6", 
     "jsx": "react",
@@ -11,7 +11,6 @@
       "dom.iterable",
       "esnext"
     ], // List of library files to be included in the compilation
-     // Allow JavaScript files to be compiled
     "skipLibCheck": true, // Skip type checking of all declaration files
     "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
     "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
@@ -32,6 +31,6 @@
   },
   "include": [
     "src/**/*" // *** The files TypeScript should type check ***
-  ],
+  ], 
   "exclude": ["node_modules", "build"] // *** The files to not type check ***
 }

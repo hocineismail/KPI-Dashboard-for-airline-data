@@ -1,0 +1,57 @@
+
+.app-topbar {
+   
+    position: fixed;
+    height: 70px;
+    background-color: white;
+    right: 0;
+    z-index: 1000;
+    left: 300px;
+    box-shadow: 0 2px 4x 0 rgba(0,0,0,.2); 
+    transition: 0.3s;
+    .app-topbar-menu {
+      display: none;
+  
+    }
+    .app-topbar-search-bar {
+      float: left;
+      margin: 15px;
+      display: block;
+    }
+ 
+    .app-topbar-account {
+      margin: 15px 50px;
+      cursor: pointer;
+      display: block;
+      float: right;
+ 
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .app-topbar {
+      right: 0;
+      z-index: 1000;
+      left: 0px;
+      .app-topbar-menu {
+        display: block;
+        margin-top: 10px;
+        float: left;
+      }
+      .app-topbar-search-bar {
+        display: block;
+        margin: 15px 5px;
+        width: 150px;
+      }
+      .Polaris-TopBar-SearchField {
+        width: 150px !important;
+      }
+      .app-topbar-account {
+        margin: 15px 10px;
+        cursor: pointer;
+        display: block;
+        float: right;
+   
+      }
+    }
+  }
