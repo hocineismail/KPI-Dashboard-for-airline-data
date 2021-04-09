@@ -87,17 +87,17 @@ export default function StatisticsSectionChart(): JSX.Element {
       };
     
     return (
-       <div>
-       <div style={{margin: '20px'}}>
-         <Card title="title" >
-          <Line data={dataL} />  
-        </Card>
-       </div>
-       <div style={{margin: '20px'}}>
-        <Card title="title" >
-        <Doughnut data={dataD} />
-        </Card>
-        </div> 
+        <div>
+            <div style={{margin: '20px'}}>
+                <Card title="title" >
+                    <Line data={dataL} />  
+                </Card>
+            </div>
+            <div style={{margin: '20px'}}>
+                <Card title="title" >
+                    <Doughnut data={dataD} />
+                </Card>
+            </div> 
         </div>
     )
 }

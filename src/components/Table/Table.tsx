@@ -11,7 +11,13 @@ import { Itable } from './type';
 import PropTypes from 'prop-types'; 
 
  
-function Table({ onchangePage, onChangeRow, headerTable, paginationData, data, loading}: Itable): JSX.Element {
+function Table({ 
+         onchangePage, 
+         onChangeRow, 
+         headerTable, 
+         paginationData, 
+         data, 
+         loading}: Itable): JSX.Element {
     const resourceName = {
        singular: 'Passenger',
        plural: 'Passengers'
@@ -57,7 +63,12 @@ function Table({ onchangePage, onChangeRow, headerTable, paginationData, data, l
           itemCount={(data || []).length} 
           selectedItemsCount={allResourcesSelected ? 'All' : selectedResources.length} 
           onSelectionChange={handleSelectionChange}
-          headings={headerTable} 
+          headings={[
+            { title: 'ID' },
+            { title: 'Name' },
+            { title: 'Number of trips' },
+            { title: 'Total amount paid for flights' }
+        ] } 
           condensed={false} 
           hasMoreItems={true} 
           loading={loading}>
@@ -81,6 +92,7 @@ function Table({ onchangePage, onChangeRow, headerTable, paginationData, data, l
 
 Table.propTypes = {
   data: PropTypes.array.isRequired,
+  headerTable: PropTypes.array.isRequired,
   paginationData: PropTypes.object.isRequired,
   onchangePage:  PropTypes.func.isRequired,
   onChangeRow:  PropTypes.func.isRequired,

@@ -2457,13 +2457,13 @@
         "affectsGlobalScope": false
       },
       "./src/components/Table/type.tsx": {
-        "version": "8a92bd337b374400be14b1c0314729f0c26c6ea31f3934acd30a17b161fbb204",
-        "signature": "b282da5b9f9fc96299e8f096b2d1cc4a9df152590a847af274c398c683fc1229",
+        "version": "f893a35557a98277dbfc971af17180dbc98c9f10e86d38a4f24ee51190efaf29",
+        "signature": "9a37ff6896262f4fe12b23aa3bc4cf4e09b0d70a1246b75faf9f9bcad6a2f1f8",
         "affectsGlobalScope": false
       },
       "./src/components/Table/Table.tsx": {
-        "version": "89f48dd747048be5f28523166923d5058f35666704b2d17bcf211aa680f7420f",
-        "signature": "b6e0337c35476cf3b8f54285768d107985067e693b7c8d0ed3e90571e8cbed1b",
+        "version": "7661638587b48a33d5f9c4d092882d8df712c2fde8d73a3094bb842de570c7c2",
+        "signature": "d0e9a0a5c2dfa1aab3805ccc035817257ff5a23a004bc90ae7ed629b4130a0e4",
         "affectsGlobalScope": false
       },
       "./src/components/Table/headTable.tsx": {
@@ -8033,39 +8033,7 @@
         [
           {
             "file": "./src/components/Table/Table.tsx",
-            "start": 711,
-            "length": 3,
-            "messageText": "Binding element '_id' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7031
-          },
-          {
-            "file": "./src/components/Table/Table.tsx",
-            "start": 716,
-            "length": 4,
-            "messageText": "Binding element 'name' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7031
-          },
-          {
-            "file": "./src/components/Table/Table.tsx",
-            "start": 722,
-            "length": 5,
-            "messageText": "Binding element 'trips' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7031
-          },
-          {
-            "file": "./src/components/Table/Table.tsx",
-            "start": 731,
-            "length": 5,
-            "messageText": "Parameter 'index' implicitly has an 'any' type.",
-            "category": 1,
-            "code": 7006
-          },
-          {
-            "file": "./src/components/Table/Table.tsx",
-            "start": 1735,
+            "start": 1795,
             "length": 8,
             "code": 2322,
             "category": 1,

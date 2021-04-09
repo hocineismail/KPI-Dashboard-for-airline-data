@@ -8,23 +8,43 @@
     z-index: 1000;
     left: 300px;
     box-shadow: 0 2px 4x 0 rgba(0,0,0,.2); 
-    ul {
-      float: right;
-      margin: 0;
-      padding: 10px;
-      list-style: none;
+    transition: 0.3s;
+    .app-topbar-menu {
+      display: none;
+  
     }
-    li {
-      display: inline-block;
+    .app-topbar-search-bar {
+      float: left;
+      margin: 15px;
+     
     }
-    a {
+ 
+    .app-topbar-account {
+      margin: 15px 50px;
+      cursor: pointer;
       display: block;
-      padding: 2px 2px;
-      text-decoration: none;
-    }
-    .app-topbar-avatar {
       float: right;
+      p {
+        text-align: right;
+      }
     }
+    // ul {
+    //   float: right;
+    //   margin: 0;
+    //   padding: 10px;
+    //   list-style: none;
+    // }
+    // li {
+    //   display: inline-block;
+    // }
+    // a {
+    //   display: block;
+    //   padding: 2px 2px;
+    //   text-decoration: none;
+    // }
+    // .app-topbar-avatar {
+    //   float: right;
+    // }
   }
 
   @media only screen and (max-width: 1400px) {
@@ -32,6 +52,13 @@
       right: 0;
       z-index: 1000;
       left: 0px;
+      .app-topbar-menu {
+        display: block;
+        margin-top: 10px;
+        float: left;
+      }
     }
+
+
   
   }

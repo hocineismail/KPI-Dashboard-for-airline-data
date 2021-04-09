@@ -19,11 +19,7 @@ function AppLayout({title, children}: IAppLayout): JSX.Element {
         <div className="app-page"> 
            <Sidebar isOpen={isOpen} /> 
           <div 
-            className="app-main-view" 
-            style={{
-              marginLeft: isOpen ? '300px' : '0px',
-              marginRight: isOpen ? '-300px' : '0px',
-              transition: '0.3s'}}>
+            className={`app-main-view ${isOpen? "push-main":""}`}>
             <Topnav onOpenMenu={() => onOpenMenu()} isOpen={isOpen} />
             <div className="app-container">
               <TitlePage title={title} /> 
