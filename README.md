@@ -1,6 +1,7 @@
 # KPI-Dashboard-for-airline-data
 This project was bootstrapped with webpack
  
+![alt text](https://api.ismailhocine.com/public/uploads/image-1617944408791.png)
 At first start by install dependencies
 
 ### `yarn install`
