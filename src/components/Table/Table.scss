@@ -1,6 +1,10 @@
   
 .Polaris-IndexTable__Table          { overflow-y: auto; height: 30vh; }
-.Polaris-IndexTable__Table thead th { position: sticky; top: 0; z-index: 1000 !important; }
+.Polaris-IndexTable__Table thead th { 
+  position: sticky;
+  top: 0; 
+ 
+  z-index: 35 !important; }
 .Polaris-Card__Section {
   position: relative;
   width:  100% !important;

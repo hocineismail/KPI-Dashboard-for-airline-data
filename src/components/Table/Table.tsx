@@ -55,7 +55,7 @@ function Table({
     </IndexTable.Row>);
  
   return (
-        <div style={{  margin: '20px'}}>
+        <div className="app-card-margin">
  
   <Card title="All Passengers" sectioned>
         <IndexTable 
@@ -66,7 +66,7 @@ function Table({
           headings={[
             { title: 'ID' },
             { title: 'Name' },
-            { title: 'Number of trips' },
+            { title: 'Trips' },
             { title: 'Total amount paid for flights' }
         ] } 
           condensed={false} 

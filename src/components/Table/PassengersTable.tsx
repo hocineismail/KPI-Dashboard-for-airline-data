@@ -6,10 +6,15 @@ import Table from './Table';
 
 //import types
 import { Ipagination,  IdataPassengers} from './type';
-import { headerTablePassengers } from './headTable'
+// import { headerTablePassengers } from './headTable'
 //import css
 import './Table.scss';
-
+const userTestStatus: { title: string}[] = [
+    { title: 'ID' },
+    { title: 'Name' },
+    { title: 'Number of trips' },
+    { title: 'Total amount paid for flights' }
+];
 export default function PassengersTable(): JSX.Element {
 
     const [data, setdata] = React.useState<IdataPassengers[]>([]);
@@ -50,16 +55,14 @@ const onChangeRow  = (row: string) => {
     fetchPassengers(0, `${process.env.HOST}/passenger?page=0&size=`,row); 
  }
 
-  return (
-     <div style={{display: 'relative'}}> 
-    <Table  
-        data={data} 
-        paginationData={paginationData}
-        headerTable={headerTablePassengers}
-        loading={loading}
-        onchangePage={(value)=>onChnagePage(value)} 
-        onChangeRow={(value)=>onChangeRow(value)}
-    />
-    </div>
+  return ( 
+        <Table  
+            data={data} 
+            paginationData={paginationData}
+            headerTable={userTestStatus}
+            loading={loading}
+            onchangePage={(value)=>onChnagePage(value)} 
+            onChangeRow={(value)=>onChangeRow(value)}
+        /> 
   )
 }

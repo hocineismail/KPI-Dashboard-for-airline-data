@@ -1,18 +1,17 @@
-import React from 'react'
-import { Card } from '@shopify/polaris'
+import React from 'react';
+
+import { Card } from '@shopify/polaris';
+
+//import types
+import { ICard } from './type';
+
+//import styles
 import './Card.scss'
-import { ICard } from './type'
-// interface Props  { 
-//     title: string,
-//     count: number | string,
-//     loading: boolean,
-//     icon: string
-//   }
 
 
 export default function StatisticCard({ title, count, loading, icon }: ICard): JSX.Element {
     return (
-        <div className="app-card-component">
+        <div className="app-card-margin app-card-component">
           <Card sectioned> 
           <i className={`app-card-icon ${icon}`}></i> 
           <p className="app-card-title">

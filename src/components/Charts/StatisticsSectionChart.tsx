@@ -7,7 +7,8 @@ import axios from 'axios';
 //import types
 import { Idata } from './type';
   
-
+//i,port styles
+import './StatisticsChart.scss'
 export default function StatisticsSectionChart(): JSX.Element {
     const [data, setdata] = React.useState<Idata>({
         label: [],
@@ -88,12 +89,12 @@ export default function StatisticsSectionChart(): JSX.Element {
     
     return (
         <div>
-            <div style={{margin: '20px'}}>
+            <div className="app-card-margin">
                 <Card title="title" >
                     <Line data={dataL} />  
                 </Card>
             </div>
-            <div style={{margin: '20px'}}>
+            <div className="app-card-margin">
                 <Card title="title" >
                     <Doughnut data={dataD} />
                 </Card>

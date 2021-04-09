@@ -19,25 +19,25 @@ import './Pagination.scss'
             let startPage: number
             let endPage: number
             if (totalPage <= 5) {
-                // less than 10 total pages so show all 
+                // less than 5 total pages so show all 
                 startPage = 1;
-                endPage = totalPage - 1;
+                endPage = totalPage + 1;
             } else {
-                // more than 10 total pages so calculate start and end pages
+                // more than 5 total pages so calculate start and end pages
                 if (currentPage <= 2) {
                     startPage = 1;
                     endPage = 6;
                    
                 } else if (currentPage + 3 >= totalPage) {
                     startPage = totalPage - 5;
-                    endPage = totalPage;
+                    endPage = totalPage + 1;
                 } else {
                     startPage = currentPage - 1;
-                    endPage = currentPage + 4   ;
+                    endPage = currentPage + 4;
                 }
             } 
            
-            const pages = []
+            const pages: number[] = []
             for(let i = startPage; i < endPage ; i++) {
                 pages.push(i)
             } 

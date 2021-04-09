@@ -1,15 +1,14 @@
-
-// .app-card-component {
-//   margin: 10px;
-// }
+ 
 $primary-color: #028ECC;
 $second-color: #8f8f8f;
-.app-card-component {
-  margin: 20px; 
-  display: flex 19px !important;
-  
+.app-card-component { 
+  display: flex 19px !important; 
 }
 
+.app-card-margin {
+  margin: 20px; 
+} 
+ 
 .Polaris-Card__Section {
   text-align: center !important;
   .app-card-count {
@@ -29,4 +28,10 @@ $second-color: #8f8f8f;
     color: $primary-color; 
     line-height: 50px;
   }
+}
+
+@media only screen and (max-width: 1400px) {
+  .app-card-margin {
+    margin: 5px; 
+  } 
 }
