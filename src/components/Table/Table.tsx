@@ -74,8 +74,6 @@ function Table({
           loading={loading}>
           {rowMarkup}
         </IndexTable>  
-        </Card>
- 
 
       <div className="app-table-pagination">
       <Pagination 
@@ -86,6 +84,7 @@ function Table({
             currentPage={paginationData.currentPage} 
        />
       </div>
+        </Card> 
       </div>
     )
 }

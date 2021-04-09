@@ -5,18 +5,41 @@
    display: grid;
    grid-template-columns: auto 300px ;
    box-sizing: border-box;
- }
-.pagination { 
-    margin: 0px;
-    padding: 0px;
+ };
+
+ .app-section-pagination { 
+  text-align: center !important ; 
+  grid-template-columns: 1fr !important ;
 }
- .pagination li {
-  display:inline;
+.pagination {  
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+};
+
  
+.pagination li {
+  display: inline-block;
 }
+  
+.app-pagination-indecator { 
+  display: inline;
+  margin-top: 5px;
+  text-align: 'center' !important;
+ 
+  ul .app-pagination-list {
+    display:  inline-block ;
+   .app-pagination-text-indecator {
+    padding: 4px !important;
+   }
+  } 
+}
+
+ 
+
+
 .pagination a {
   color: #028ECC;
-  float: left;
   border: 1px solid #028ECC;
   border-radius: 30px;
   font-weight: bold;
@@ -44,21 +67,6 @@
   pointer-events:none; //This makes it not clickable
   opacity:0.6;
 }
-.app-pagination-indecator {
-  margin: 10px 10px 10px 0px;
-  text-align: 'right';
-  float: left;
+.hide-list {
+  display: none;
 }
-
-@media only screen and (max-width: 1300px) {
-  .app-section-pagination { 
-    text-align: center !important ;
- 
-    grid-template-columns: 1fr !important ;
-  }
-  .app-pagination-indecator {
-    margin: 10px 10px 10px 0px;
-    text-align: 'center' !important ;
-  }
-
-} 
