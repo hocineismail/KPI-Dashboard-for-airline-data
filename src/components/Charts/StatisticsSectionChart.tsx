@@ -16,18 +16,26 @@ export default function StatisticsSectionChart(): JSX.Element {
         });
 
     React.useEffect(() => {
+        //fetch data for 5 passengers
         fetchPassengers(`${process.env.HOST}/passenger?page=0&size=5`); 
 
     }, []);
 
     function fetchPassengers (url: string) { 
-        axios
-        .get(url)
-        .then(response => {  
-            const result = generateDataChart(response.data.data);
-            console.log(result)
-            setdata(result) 
-        });
+        //fetch data for our chart
+        try {
+            axios
+            .get(url)
+            .then(response => {  
+                const result = generateDataChart(response.data.data);
+                console.log(result)
+                setdata(result) 
+            }).catch(() => {
+                console.log('Something wrong')
+            });
+        } catch (error) {
+            console.log('Something wrong')
+        }
     }
 
     function generateDataChart (arr: {name: string, trips: number}[]) {

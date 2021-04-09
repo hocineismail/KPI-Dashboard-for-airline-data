@@ -29,6 +29,7 @@ import './Pagination.scss'
                     endPage = 6;
                    
                 } else if (currentPage + 3 >= totalPage) {
+                     // current page more then 100 so we need to reduce  number of page for mobile device
                    if (currentPage > 90) {
                      startPage = totalPage - 3;
                      endPage = totalPage + 1;
@@ -37,6 +38,7 @@ import './Pagination.scss'
                      endPage = totalPage + 1;
                    }
                 } else {
+                     // current page more then 100 so we need to reduce  number of page for mobile device
                     if (currentPage > 90) {
                         startPage = currentPage - 1;
                         endPage = currentPage + 3;
@@ -47,7 +49,7 @@ import './Pagination.scss'
 
                 }
             } 
-           
+            // generate our pages
             const pages: number[] = []
             for(let i = startPage; i < endPage ; i++) {
                 pages.push(i)

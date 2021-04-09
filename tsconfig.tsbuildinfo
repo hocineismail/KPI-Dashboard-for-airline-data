@@ -702,8 +702,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@shopify/polaris/dist/types/latest/src/components/Card/components/Section/Section.d.ts": {
-        "version": "d879a00d97927ab34c3415ed667bdca47bb0c3d35d1a7b51de968835eb8bef25",
-        "signature": "d879a00d97927ab34c3415ed667bdca47bb0c3d35d1a7b51de968835eb8bef25",
+        "version": "593bd140f6a9554e905cbfa140da9ff74db6489250bcd35c6795bbc1052b7e31",
+        "signature": "593bd140f6a9554e905cbfa140da9ff74db6489250bcd35c6795bbc1052b7e31",
         "affectsGlobalScope": false
       },
       "./node_modules/@shopify/polaris/dist/types/latest/src/components/Card/components/Section/index.d.ts": {
@@ -727,8 +727,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@shopify/polaris/dist/types/latest/src/components/Card/Card.d.ts": {
-        "version": "c8d11f1c2f8ea49150427c3d773bcf7f03ba19e2e382f2fc0c9b7ec3cabe4034",
-        "signature": "c8d11f1c2f8ea49150427c3d773bcf7f03ba19e2e382f2fc0c9b7ec3cabe4034",
+        "version": "97b97122fa7321f94a6ab9d0f337a5bdbe9d346c3f04eda1ecc1c7e3f28d7398",
+        "signature": "97b97122fa7321f94a6ab9d0f337a5bdbe9d346c3f04eda1ecc1c7e3f28d7398",
         "affectsGlobalScope": false
       },
       "./node_modules/@shopify/polaris/dist/types/latest/src/components/Card/index.d.ts": {
@@ -887,8 +887,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@shopify/polaris/dist/types/latest/src/components/DropZone/DropZone.d.ts": {
-        "version": "3943bc425022b78ec807f1d059c270aedf003b3489f906eb2c21e8e08a7a2cf0",
-        "signature": "3943bc425022b78ec807f1d059c270aedf003b3489f906eb2c21e8e08a7a2cf0",
+        "version": "937663ced87df094866894ad76a2f6cce9fd0085db1f2829b6f3cfaab74bfa35",
+        "signature": "937663ced87df094866894ad76a2f6cce9fd0085db1f2829b6f3cfaab74bfa35",
         "affectsGlobalScope": false
       },
       "./node_modules/@shopify/polaris/dist/types/latest/src/components/DropZone/index.d.ts": {
@@ -2507,7 +2507,7 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@shopify/polaris/locales/en.json": {
-        "version": "b20f910ed1d72f3483e29faae634666eabbed5b08156db0e9db5c1c3cfc26a96",
+        "version": "1eecbea9c1dfdd5178647c917b4ac5d323e4b4492ca12ac7e52f9c9ea15e61b7",
         "affectsGlobalScope": true
       },
       "./src/index.tsx": {
@@ -2541,8 +2541,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@babel/parser/typings/babel-parser.d.ts": {
-        "version": "6da9e714516d081abaa435946d77c8d74dba888530412dc71601e83d2c8a512e",
-        "signature": "6da9e714516d081abaa435946d77c8d74dba888530412dc71601e83d2c8a512e",
+        "version": "069733dc220affbe58d9c1d1a93af3707bc515aaed761701d8741b57da4cb964",
+        "signature": "069733dc220affbe58d9c1d1a93af3707bc515aaed761701d8741b57da4cb964",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/babel__template/index.d.ts": {
@@ -7368,8 +7368,7 @@
         "./node_modules/react-animated-burgers/lib/components/HamburgerVortexReverse/index.d.ts"
       ],
       "./node_modules/react-chartjs-2/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/chart.js/types/index.esm.d.ts"
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
@@ -9965,42 +9964,6 @@
         1
       ],
       [
-        "./node_modules/chart.js/types/adapters.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/animation.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/basic.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/color.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/element.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/geometric.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/index.esm.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/layout.d.ts",
-        1
-      ],
-      [
-        "./node_modules/chart.js/types/utils.d.ts",
-        1
-      ],
-      [
         "./node_modules/csstype/index.d.ts",
         1
       ],
@@ -10401,10 +10364,6 @@
         1
       ],
       [
-        "./src/components/Table/headTable.tsx",
-        1
-      ],
-      [
         "./src/components/Table/type.tsx",
         1
       ],
@@ -10434,5 +10393,5 @@
       ]
     ]
   },
-  "version": "4.2.3"
+  "version": "4.2.4"
 }
