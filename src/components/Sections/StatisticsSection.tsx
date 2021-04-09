@@ -82,8 +82,10 @@ export default function StatisticsSection(): JSX.Element {
             count: year
         });
        }
-    return (
+    return (<>
+        <i>{error}</i>   
         <div className='app-statistics-section'> 
+            
             <StatisticCard 
               title='Total Trips' 
               count={TotalOfTrips.count} 
@@ -103,12 +105,13 @@ export default function StatisticsSection(): JSX.Element {
               icon="far fa-money-bill-alt"
             />
             <StatisticCard 
-              title='Establishing Year' 
+              title='Oldest Airline (year)' 
               count={EstablishingYear.count} 
               loading={EstablishingYear.loading} 
               icon="far fa-calendar-alt"
             />
-            <i>{error}</i>
+          
         </div>
+        </>
     )
 }
